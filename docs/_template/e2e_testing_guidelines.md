@@ -1,6 +1,6 @@
-# E2E Testing Guidelines — {{PROJEKT}}
+# E2E Testing Guidelines — SG_Content_Projekt
 
-> Stand: {{DATUM}}
+> Stand: 2026-04-18
 
 Diese Guidelines standardisieren den E2E-Testansatz mit Playwright.  
 E2E-Tests sind hier nicht nur Regressionstests, sondern ein **Hybrid aus Behavior-Tests, UI-Audit und Backend/Frontend-Contract-Prüfung**.

@@ -1,8 +1,8 @@
-# Engineering Guidelines — {{PROJEKT}}
+# Engineering Guidelines — SG_Content_Projekt
 
-> Stand: {{DATUM}}
+> Stand: 2026-04-18
 
-Diese Guidelines definieren zentrale Engineering-Prinzipien für {{PROJEKT}}.  
+Diese Guidelines definieren zentrale Engineering-Prinzipien für SG_Content_Projekt.  
 Ziel ist konsistenter, gut testbarer und sicherer Code – insbesondere im Hinblick auf Auth, Datenzugriff und Stabilität im Betrieb.
 
 ---

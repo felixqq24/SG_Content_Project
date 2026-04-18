@@ -1,8 +1,8 @@
-# UI/UX Guidelines — {{PROJEKT}}
+# UI/UX Guidelines — SG_Content_Projekt
 
-> Stand: {{DATUM}}
+> Stand: 2026-04-18
 
-Diese Guidelines definieren grundlegende UI/UX-Prinzipien und konkrete Patterns für {{PROJEKT}}.  
+Diese Guidelines definieren grundlegende UI/UX-Prinzipien und konkrete Patterns für SG_Content_Projekt.  
 Sie sind bewusst leichtgewichtig gehalten und sollen Entscheidungen beschleunigen, Konsistenz fördern und spätere Erweiterungen vereinfachen.  
 
 ---

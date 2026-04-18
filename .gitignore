@@ -31,15 +31,21 @@ coverage/
 htmlcov/
 .pytest_cache/
 
-# Docker
-docker-compose.override.yml
-
-# Prisma
-src/generated/
-
 # Logs
 *.log
 npm-debug.log*
 
 # OS
 Thumbs.db
+
+# ─── SG_Content_Projekt ────────────────────────────────────────────────
+# PII / persönliche Aussagen aus Discovery-Interview — NIEMALS committen.
+interview/raw/
+interview/*.raw.md
+interview/*.raw.txt
+interview/*.audio
+interview/*.mp3
+interview/*.m4a
+interview/*.wav
+interview/*.vtt
+interview/*.srt

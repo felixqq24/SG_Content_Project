@@ -1,7 +1,7 @@
-# Incident Response — {{PROJEKT}}
+# Incident Response — SG_Content_Projekt
 
 > **Ziel:** Strukturiertes Vorgehen bei Production-Problemen statt Ad-hoc-Panik.  
-> **Stand:** {{DATUM}}
+> **Stand:** 2026-04-18
 
 ---
 
@@ -9,15 +9,15 @@
 
 ### Application Down
 
-1. **Health-Check prüfen:** `curl -s https://{{DOMAIN}}/api/health`
+1. **Health-Check prüfen:** `curl -s https://tbd/api/health`
 2. **Container-Status:** `docker ps` → läuft der Container?
-3. **Logs prüfen:** `docker logs {{PROJEKT}}_app --tail 100`
+3. **Logs prüfen:** `docker logs SG_Content_Projekt_app --tail 100`
 4. **Neustart versuchen:** `docker compose -f docker-compose.prod.yml restart app`
 5. Falls Neustart nicht hilft → Rollback (siehe unten)
 
 ### Datenbank-Probleme
 
-1. **Connection prüfen:** `docker exec {{PROJEKT}}_app pg_isready -h host.docker.internal`
+1. **Connection prüfen:** `docker exec SG_Content_Projekt_app pg_isready -h host.docker.internal`
 2. **Disk Space:** `df -h` auf dem Server
 3. **Locks prüfen:** `SELECT * FROM pg_stat_activity WHERE state = 'active';`
 
@@ -29,7 +29,7 @@
 
 ```bash
 # Vorheriges Image identifizieren
-docker images ghcr.io/jf-hospitality/{{PROJEKT}} --format "{{`{{.Tag}}`}} {{`{{.CreatedAt}}`}}"
+docker images ghcr.io/jf-hospitality/SG_Content_Projekt --format "{{`{{.Tag}}`}} {{`{{.CreatedAt}}`}}"
 
 # Auf vorheriges Image wechseln
 # In docker-compose.prod.yml: image Tag ändern auf vorherigen SHA
@@ -62,7 +62,7 @@ docker compose -f docker-compose.prod.yml up -d app
 
 ```bash
 # PostgreSQL Restore
-pg_restore -h localhost -U postgres -d {{PROJEKT}} backup_file.dump
+pg_restore -h localhost -U postgres -d SG_Content_Projekt backup_file.dump
 ```
 
 ---
@@ -85,7 +85,7 @@ pg_restore -h localhost -U postgres -d {{PROJEKT}} backup_file.dump
 **Symptom:** Container restartet in Loop, Health-Check schlägt fehl.  
 **Ursache:** Oft fehlende Environment-Variablen oder fehlgeschlagene Migration.  
 **Lösung:**
-1. `docker logs {{PROJEKT}}_app` → Fehlermeldung lesen
+1. `docker logs SG_Content_Projekt_app` → Fehlermeldung lesen
 2. `.env` auf dem Server prüfen (fehlende Variablen?)
 3. Bei Migration-Fehler: DB-State prüfen, ggf. manuell fixen
 4. Rollback auf vorheriges Image wenn nötig
