@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+.output/
+standalone/
+
+# IDE
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+
+# Prisma
+src/generated/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+Thumbs.db

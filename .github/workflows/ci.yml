@@ -1,0 +1,50 @@
+# CI/CD Pipeline — {{PROJEKT}}
+# Nutzt den zentralen JF-Hospitality Workflow für Docker Build & Deploy.
+
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci-cd:
+    uses: jf-hospitality/.github/.github/workflows/docker-deploy.yml@main
+    with:
+      app-name: {{PROJEKT}}
+      deploy-dir: /opt/apps/{{PROJEKT}}
+      compose-file: docker-compose.prod.yml
+      container-name: {{PROJEKT}}_app
+      # run-migrations: true          # Aktivieren wenn DB-Migrations nötig
+      # migration-command: "..."       # Anpassen an ORM (Prisma, Alembic, etc.)
+      # run-lint: true                 # Lint & Type-Check (default: true)
+      # pre-lint-command: ""           # z.B. "npx prisma generate"
+    secrets: inherit
+
+# ──────────────────────────────────────────────
+# E2E-TESTS (Playwright) — Aktivieren wenn bereit
+# Kommentar entfernen und TODO-Werte ersetzen
+# ──────────────────────────────────────────────
+#  e2e:
+#    runs-on: ubuntu-latest
+#    needs: [] # Optional: ci-cd als Dependency setzen
+#    steps:
+#      - uses: actions/checkout@v4
+#      - uses: actions/setup-node@v4
+#        with: { node-version: 20 }
+#      - name: Install dependencies
+#        run: pnpm install
+#      - name: Install Playwright browsers
+#        run: npx playwright install --with-deps chromium
+#      - name: Run E2E tests
+#        run: pnpm test:e2e
+#        env:
+#          AUTH_SECRET: ${{ secrets.AUTH_SECRET }} # TODO: Secret-Namen anpassen
+#      - name: Upload Playwright report
+#        uses: actions/upload-artifact@v4
+#        if: failure()
+#        with:
+#          name: playwright-report
+#          path: playwright-report/
