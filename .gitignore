@@ -49,3 +49,5 @@ interview/*.m4a
 interview/*.wav
 interview/*.vtt
 interview/*.srt
+interview/*.eml
+interview/*.msg

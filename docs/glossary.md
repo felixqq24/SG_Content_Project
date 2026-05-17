@@ -36,6 +36,42 @@
 - **CTA (Call to Action)** — Handlungsaufforderung (z. B. "Erstgespräch anfragen").
 - **Google Business Profile** — Kostenfreier Google-Eintrag mit Öffnungszeiten, Fotos, Bewertungen; wichtig für lokale Sichtbarkeit.
 
+## Englisches Fachvokabular (Premium-Nanny-Kontext)
+
+> Quelle: SG-WhatsApp 2026-05-17. Begriffe für Website (EN), Outreach-Mails und Agentur-Kommunikation.
+
+### Service-Level & Haltung
+
+- **Bespoke / Tailored** — Maßgeschneidert. Bevorzugt gegenüber „individualized" im Premium-Kontext.
+- **Discretion & Privacy** — Diskretion und Privatsphäre. Kernerwartung bei UHNW-Familien.
+- **Seamless Support** — Reibungslose Unterstützung. Alles läuft perfekt im Hintergrund.
+- **Concierge-level Service** — Service auf Hotel-Concierge-Niveau. Verweist auf SGs Hospitality-Hintergrund.
+- **Unobtrusive** — Unaufdringlich. Präsent, wenn nötig; unsichtbar, wenn nicht.
+
+### Pädagogik & Coaching
+
+- **Behavioral Guidance** — Verhaltensführung. Professioneller als „discipline".
+- **Conflict Resolution** — Konfliktlösung. Kompetenz bei schwierigen Familiendynamiken.
+- **Developmental Milestones** — Entwicklungsschritte. Zeigt erzieherisches Fachwissen.
+- **Emotional Regulation** — Emotionsregulation. Kinder begleiten im Umgang mit Gefühlen.
+- **Educational Enrichment** — Pädagogische Bereicherung. Förderung über reines Spielen hinaus.
+
+### Reise, Ski & Yoga
+
+- **Travel Itinerary Coordination** — Koordination des Reiseablaufs.
+- **Alpine Safety & Terrain Assessment** — Alpine Sicherheit und Geländebeurteilung.
+- **Mindfulness & Wellbeing** — Achtsamkeit und Wohlbefinden. Yoga-Bezug.
+- **Activity Programming** — Programmgestaltung. Aktive Tagesplanung für Kinder.
+- **Acclimatization Support** — Unterstützung bei Akklimatisierung (Fernreisen, Höhenluft).
+
+### Professionalität & Logistik
+
+- **Sole Charge** — Alleinige Verantwortung. Eltern sind vollständig abwesend.
+- **Shared Care** — Gemeinsame Betreuung. Hand in Hand mit den Eltern.
+- **Proxy Parenting** — Eltern-Stellvertretung. Höchster Vertrauensgrad.
+- **Cultural Etiquette** — Kulturelle Etikette. Relevant bei internationalen Reisen.
+- **Vetted / Qualified** — Geprüft und qualifiziert. Verweis auf staatliche Anerkennung.
+
 ## Technik (wird ab Phase 5 erweitert)
 
 *(Platzhalter — Begriffe zu Website-Framework, CMS, Hosting folgen mit Tech-Stack-Entscheidung)*
