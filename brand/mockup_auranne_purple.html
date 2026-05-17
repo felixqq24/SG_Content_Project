@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Auranne — Premium Nanny &amp; Global Governess (Purple Hero variant)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #0E1A3A;
+  --purple: #4A2C6D;
+  --gold: #B8893A;
+  --pearl: #FAF6EF;
+  --pearl-card: #FFFFFF;
+  --pearl-tint: #F2EBDC;
+  --text: #0E1A3A;
+  --text-muted: #5A5266;
+  --hairline: rgba(184,137,58,0.45);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--pearl);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  font-weight: 300;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .serif {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 1.15;
+}
+
+.eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 500;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.container { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+
+/* ────────── NAVIGATION ────────── */
+nav {
+  background: var(--navy);
+  color: var(--pearl);
+  border-bottom: 1px solid var(--hairline);
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 26px;
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  color: var(--pearl);
+}
+.logo .dot {
+  display: inline-block;
+  width: 5px; height: 5px;
+  background: var(--gold);
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 0 4px 4px;
+}
+.nav-links {
+  display: flex;
+  gap: 38px;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.nav-links a { color: var(--pearl); opacity: 0.85; transition: opacity 0.2s; }
+.nav-links a:hover { opacity: 1; }
+.nav-cta {
+  border: 1px solid var(--gold);
+  padding: 9px 20px;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  transition: all 0.25s;
+}
+.nav-cta:hover { background: var(--gold); color: var(--navy); }
+
+/* ────────── HERO (Royal Purple variant) ────────── */
+.hero {
+  background: var(--purple);
+  color: var(--pearl);
+  padding: 100px 0 130px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 75% 30%, rgba(14,26,58,0.55), transparent 55%),
+    radial-gradient(ellipse at 20% 80%, rgba(184,137,58,0.12), transparent 50%);
+  pointer-events: none;
+}
+.hero .container { position: relative; z-index: 1; max-width: 880px; }
+.hero .eyebrow { margin-bottom: 26px; }
+.hero h1 {
+  font-size: clamp(34px, 7vw, 84px);
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  margin-bottom: 28px;
+  color: var(--pearl);
+  word-break: break-word;
+}
+.hero h1 em {
+  font-style: italic;
+  color: #E8D9B5;
+  font-weight: 300;
+}
+.hero .lede {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.65;
+  max-width: 640px;
+  color: rgba(250,246,239,0.82);
+  margin-bottom: 44px;
+}
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--gold);
+  color: var(--pearl);
+  padding: 16px 32px;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.hero-cta:hover { background: var(--gold); color: var(--navy); }
+.hero-cta::after {
+  content: '→';
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.hero-meta {
+  display: flex;
+  gap: 48px;
+  margin-top: 80px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(184,137,58,0.25);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(250,246,239,0.65);
+}
+.hero-meta span::before {
+  content: '·';
+  color: var(--gold);
+  margin-right: 14px;
+}
+.hero-meta span:first-child::before { display: none; }
+
+/* ────────── PILLARS ────────── */
+.pillars {
+  padding: 110px 0 100px;
+  background: var(--pearl);
+}
+.section-head {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 70px;
+}
+.section-head .eyebrow { margin-bottom: 18px; }
+.section-head h2 {
+  font-size: clamp(34px, 4.2vw, 48px);
+  margin-bottom: 22px;
+  color: var(--navy);
+}
+.section-head p {
+  font-size: 17px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.pillar-card {
+  background: var(--pearl-card);
+  padding: 44px 36px 40px;
+  border-top: 2px solid var(--gold);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.pillar-card:hover { transform: translateY(-4px); }
+.pillar-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  color: var(--gold);
+  letter-spacing: 0.3em;
+  margin-bottom: 18px;
+  display: block;
+}
+.pillar-card h3 {
+  font-size: 26px;
+  color: var(--navy);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+.pillar-card p {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+.pillar-card .more {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--purple);
+  font-weight: 500;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 4px;
+}
+
+/* ────────── ABOUT (Navy variant) ────────── */
+.about {
+  background: var(--navy);
+  color: var(--pearl);
+  padding: 110px 0;
+  position: relative;
+}
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 60px; height: 1px;
+  background: var(--gold);
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 80px;
+  align-items: start;
+}
+.about-photo {
+  aspect-ratio: 4/5;
+  background: linear-gradient(135deg, #E8D9B5 0%, #B8893A 60%, #4A2C6D 100%);
+  position: relative;
+}
+.about-photo::after {
+  content: 'Portrait SG';
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(14,26,58,0.55);
+  letter-spacing: 0.1em;
+}
+.about-text .eyebrow { color: #E8D9B5; margin-bottom: 18px; }
+.about-text h2 {
+  font-size: clamp(32px, 3.8vw, 44px);
+  margin-bottom: 28px;
+  color: var(--pearl);
+}
+.about-text h2 em {
+  font-style: italic;
+  color: #E8D9B5;
+  font-weight: 400;
+}
+.about-text p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: rgba(250,246,239,0.85);
+  margin-bottom: 18px;
+  max-width: 560px;
+}
+.qual-list {
+  list-style: none;
+  margin-top: 36px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(184,137,58,0.35);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 32px;
+}
+.qual-list li {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: rgba(250,246,239,0.9);
+  padding-left: 18px;
+  position: relative;
+}
+.qual-list li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 9px;
+  width: 8px; height: 1px;
+  background: var(--gold);
+}
+
+/* ────────── QUOTE ────────── */
+.quote-section {
+  padding: 110px 0;
+  background: var(--pearl);
+  text-align: center;
+}
+.quote-section blockquote {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(26px, 3.5vw, 38px);
+  line-height: 1.4;
+  color: var(--navy);
+  font-weight: 300;
+  font-style: italic;
+  max-width: 820px;
+  margin: 0 auto;
+  position: relative;
+}
+.quote-section blockquote::before {
+  content: '"';
+  display: block;
+  font-size: 80px;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+.quote-attr {
+  margin-top: 36px;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.quote-attr::before {
+  content: '— ';
+  color: var(--gold);
+}
+
+/* ────────── FOOTER ────────── */
+footer {
+  background: var(--navy);
+  color: rgba(250,246,239,0.7);
+  padding: 70px 0 40px;
+  font-size: 13px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.footer-grid h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+.footer-grid ul { list-style: none; }
+.footer-grid li { margin-bottom: 10px; }
+.footer-grid li a { color: rgba(250,246,239,0.7); transition: color 0.2s; }
+.footer-grid li a:hover { color: var(--pearl); }
+.footer-brand .logo { font-size: 28px; margin-bottom: 16px; display: inline-block; }
+.footer-brand p {
+  max-width: 320px;
+  line-height: 1.7;
+  color: rgba(250,246,239,0.6);
+}
+.footer-bottom {
+  border-top: 1px solid rgba(184,137,58,0.25);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(250,246,239,0.45);
+}
+
+/* ────────── RESPONSIVE ────────── */
+@media (max-width: 880px) {
+  .nav-links { display: none; }
+  .pillar-grid { grid-template-columns: 1fr; }
+  .about-grid { grid-template-columns: 1fr; gap: 50px; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .qual-list { grid-template-columns: 1fr; }
+  .hero { padding: 70px 0 90px; }
+  .hero-meta { flex-wrap: wrap; gap: 24px; }
+}
+@media (max-width: 540px) {
+  .container { padding: 0 22px; }
+  .nav-cta { display: none; }
+  nav .container { padding-top: 18px; padding-bottom: 18px; }
+  .hero h1 { font-size: 36px; }
+  .hero .lede { font-size: 17px; }
+  .hero-cta { padding: 14px 24px; font-size: 11px; }
+  .hero-meta {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 11px;
+    margin-top: 50px;
+  }
+  .hero-meta span::before { display: none; }
+  .pillars { padding: 80px 0 70px; }
+  .pillar-card { padding: 36px 26px 30px; }
+  .pillar-card h3 { font-size: 22px; word-break: break-word; }
+  .section-head { margin-bottom: 50px; }
+  .section-head h2 { font-size: 30px; }
+  .about { padding: 80px 0; }
+  .about-text h2 { font-size: 28px; }
+  .quote-section { padding: 70px 0; }
+  .quote-section blockquote { font-size: 22px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+  .footer-bottom { flex-direction: column; gap: 8px; align-items: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a href="#" class="logo">Auranne<span class="dot"></span></a>
+    <div class="nav-links">
+      <a href="#pillars">Services</a>
+      <a href="#about">About</a>
+      <a href="#">Approach</a>
+      <a href="#">Journal</a>
+    </div>
+    <a href="#" class="nav-cta">Begin a conversation</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="eyebrow">Premium Nanny · Global Governess</div>
+    <h1>A person, <em>not a placeholder</em>, for the children in your home.</h1>
+    <p class="lede">
+      For internationally mobile families seeking more than care: a state-certified
+      educator, ski instructor, yoga teacher and mother of four — based in Zermatt,
+      available worldwide. Calm, attentive, present.
+    </p>
+    <a href="#" class="hero-cta">Request a qualifying call</a>
+    <div class="hero-meta">
+      <span>Based in Zermatt</span>
+      <span>Weekly &amp; monthly engagements</span>
+      <span>EN · DE · FR</span>
+    </div>
+  </div>
+</section>
+
+<section class="pillars" id="pillars">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">How we work together</div>
+      <h2>Three ways to invite Auranne into your family.</h2>
+      <p>Every engagement begins with a qualifying conversation. No bookings without it.</p>
+    </div>
+    <div class="pillar-grid">
+
+      <article class="pillar-card">
+        <span class="pillar-num">I</span>
+        <h3>Premium Nanny &amp; Global Governess</h3>
+        <p>
+          Long-form engagements — weeks or months — travelling with the family or
+          embedded in the household. Pedagogical depth, calm presence, fluent
+          across languages and time zones.
+        </p>
+        <a href="#" class="more">Learn more</a>
+      </article>
+
+      <article class="pillar-card">
+        <span class="pillar-num">II</span>
+        <h3>Relief for Live-in Families</h3>
+        <p>
+          Qualified, discreet cover when your existing nanny needs leave. Short
+          deployments, fully aligned with your routines. The children meet a
+          professional, not a stranger.
+        </p>
+        <a href="#" class="more">Learn more</a>
+      </article>
+
+      <article class="pillar-card">
+        <span class="pillar-num">III</span>
+        <h3>Ski &amp; Care · Zermatt</h3>
+        <p>
+          On-mountain mornings with a certified ski instructor, off-mountain
+          afternoons with a calm regulating presence. In partnership with
+          Evolution Ski School Zermatt.
+        </p>
+        <a href="#" class="more">Learn more</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-photo"></div>
+      <div class="about-text">
+        <div class="eyebrow">The person behind Auranne</div>
+        <h2>Thirty-four years of mothering — <em>and the discipline to do it well for someone else.</em></h2>
+        <p>
+          Auranne is the work of one woman: a state-certified early-childhood
+          educator with the rare combination of ski-instructor competence and a
+          long yoga practice. The training shows in calm rooms. The mothering
+          shows in the way children settle.
+        </p>
+        <p>
+          She works on the basis of polyvagal theory — not as a label, but as a
+          way of meeting children whose nervous systems need a different
+          tempo. There are no diagnoses on this website. There is a way of
+          being present.
+        </p>
+        <ul class="qual-list">
+          <li>State-certified early-childhood educator</li>
+          <li>Certified ski instructor (Swiss Snow Sports)</li>
+          <li>Yoga teacher (3HO, ~400 h)</li>
+          <li>Children's yoga &amp; yoga coach</li>
+          <li>Forest-kindergarten experience</li>
+          <li>Mother of four</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quote-section">
+  <div class="container">
+    <blockquote>
+      A child who is met where they are will rarely have to insist on being seen.
+    </blockquote>
+    <div class="quote-attr">A working principle</div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">Auranne<span class="dot"></span></a>
+        <p>
+          Premium care for internationally mobile families. Based in Zermatt,
+          Switzerland · Available worldwide.
+        </p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Global Governess</a></li>
+          <li><a href="#">Relief Nanny</a></li>
+          <li><a href="#">Ski &amp; Care</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">Approach</a></li>
+          <li><a href="#">Qualifications</a></li>
+          <li><a href="#">References</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">hello@auranne.com</a></li>
+          <li><a href="#">WhatsApp</a></li>
+          <li><a href="#">Qualifying call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Auranne · Zermatt</span>
+      <span>Imprint · Privacy</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
