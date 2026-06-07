@@ -1,4 +1,4 @@
-# Positioning — `[Markenname]`
+# Positioning — `Riviera & Ridge`
 
 > **Status:** v1.1 — Triple-Tier-Update 17. Mai 2026 (aus SGs WhatsApp-Modell). Wird mit Markenname-Entscheidung aktualisiert.
 
@@ -6,18 +6,18 @@
 
 **Für** international mobile Familien, die für ihre Kinder mehr wollen als Betreuung,
 **die** eine qualifizierte, diskrete Bezugsperson suchen, die Ruhe, fachliche Tiefe und echte Präsenz in den Alltag bringt,
-**bietet `[Markenname]`** eine Premium-Nanny mit erzieherischer Fachausbildung und internationaler Einsetzbarkeit,
+**bietet `Riviera & Ridge`** eine Premium-Nanny mit erzieherischer Fachausbildung und internationaler Einsetzbarkeit,
 **die** Betreuung, pädagogische Begleitung, Bewegungs- und Regulationskompetenz in einer Person vereint.
 **Im Gegensatz zu** klassischen Nanny-Agenturen mit austauschbarem Personal
-**bietet `[Markenname]`** eine staatlich geprüfte Erzieherin mit 34 Jahren gelebter Mutter-Erfahrung, Ski- und Yoga-Kompetenz und einer Haltung, die Kinder nicht verwahrt, sondern sieht.
+**bietet `Riviera & Ridge`** eine staatlich geprüfte Erzieherin mit 34 Jahren gelebter Mutter-Erfahrung, Ski- und Yoga-Kompetenz und einer Haltung, die Kinder nicht verwahrt, sondern sieht.
 
 ## Elevator Pitch (≤ 60 Sekunden, DE)
 
-> `[Markenname]` ist eine Premium-Nanny für international mobile Familien. Staatlich geprüfte Erzieherin, Skilehrerin, Yogalehrerin, Mutter von vier — mit Basis in Zermatt, einsetzbar weltweit. Für Kinder, die mehr brauchen als Verwahrung: Ruhe, andere Ansprache, echte Präsenz. Für Familien, die einen Menschen suchen, dem sie ihre Kinder wirklich anvertrauen.
+> `Riviera & Ridge` ist eine Premium-Nanny für international mobile Familien. Staatlich geprüfte Erzieherin, Skilehrerin, Yogalehrerin, Mutter von vier — mit Basis in Zermatt, einsetzbar weltweit. Für Kinder, die mehr brauchen als Verwahrung: Ruhe, andere Ansprache, echte Präsenz. Für Familien, die einen Menschen suchen, dem sie ihre Kinder wirklich anvertrauen.
 
 ## Elevator Pitch (≤ 60 Sekunden, EN)
 
-> `[Markenname]` is a premium nanny service for internationally mobile families. State-certified early-childhood educator, ski instructor, yoga teacher, mother of four — based in Zermatt, available worldwide. For children who need more than childcare: calm, attention, and a different way of being heard. For families looking for a person, not a placeholder.
+> `Riviera & Ridge` is a premium nanny service for internationally mobile families. State-certified early-childhood educator, ski instructor, yoga teacher, mother of four — based in Zermatt, available worldwide. For children who need more than childcare: calm, attention, and a different way of being heard. For families looking for a person, not a placeholder.
 
 ## Differenzierung
 
@@ -27,7 +27,7 @@
 - Basis Zermatt — international einsatzfähig (Wochen- und Monatseinsätze)
 - Fachliche Tiefe für Kinder mit Besonderheiten, ohne Diagnose-Sprech
 
-**Was `[Markenname]` nicht ist (Abgrenzung):**
+**Was `Riviera & Ridge` nicht ist (Abgrenzung):**
 - Kein Au-pair, keine Babysitterin
 - Keine austauschbare Agentur-Nanny
 - Keine Coach-Praxis („Confidence Coach", „Mentor") — der Hero-Track ist die Nanny-Rolle selbst

@@ -1,0 +1,331 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Base
+  title="Services · Riviera & Ridge"
+  description="A bespoke triple-tier service: Active Travel & Alpine, Behavioral & Harmony Coaching, Elite Relief & Emergency. Every engagement starts with a conversation."
+>
+  <Nav slot="header" />
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">What we offer</div>
+      <h1>A bespoke <em>triple-tier service.</em></h1>
+      <p class="hero-lead">
+        Three tiers — one qualified professional. Each engagement begins with
+        a qualifying conversation. Indicative rates are shared afterwards, in writing.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ SERVICE CARDS ═══════════ -->
+  <section class="services">
+    <div class="container">
+      <div class="service-grid">
+
+        <a href="/services/travel-alpine" class="service-card">
+          <span class="tier-num">I</span>
+          <div class="eyebrow">For internationally mobile families</div>
+          <h2>Active Travel &amp; Alpine Expert</h2>
+          <p>
+            From snowy mornings in Zermatt to long-haul travel days — your children
+            experience one familiar person beside them. A qualified educator with
+            ski and outdoor competence, across mountains and time zones.
+          </p>
+          <span class="card-cta">Learn more →</span>
+        </a>
+
+        <a href="/services/behavioral-harmony" class="service-card">
+          <span class="tier-num">II</span>
+          <div class="eyebrow">For children who need a different approach</div>
+          <h2>Behavioral &amp; Harmony Coaching</h2>
+          <p>
+            For children who respond to a calmer voice, a clearer frame, or a different
+            rhythm. Grounded in 20 years of professional childcare and educational
+            practice — with the depth that makes a difference.
+          </p>
+          <span class="card-cta">Learn more →</span>
+        </a>
+
+        <a href="/services/elite-relief" class="service-card">
+          <span class="tier-num">III</span>
+          <div class="eyebrow">When your live-in nanny is unavailable</div>
+          <h2>Elite Relief &amp; Emergency Support</h2>
+          <p>
+            Qualified, discreet cover when your live-in nanny is unavailable — or when
+            the situation calls for someone who can step in and hold the frame at short notice.
+          </p>
+          <span class="card-cta">Learn more →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ HOW WE WORK ═══════════ -->
+  <section class="how-we-work">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">The process</div>
+        <h2>How every engagement begins.</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step">
+          <span class="step-num">1</span>
+          <h3>Conversation</h3>
+          <p>
+            A qualifying conversation to understand your family, your children,
+            and the frame you need — and to let you understand who you are
+            entrusting them to.
+          </p>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <h3>Preparation</h3>
+          <p>
+            A clear brief: routines, languages, allergies, preferences, boundaries.
+            Written, confirmed by both sides, never assumed.
+          </p>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <h3>Presence</h3>
+          <p>
+            Quiet, professional, present. Your children know someone is holding
+            the frame. You know where you stand at every moment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ CTA ═══════════ -->
+  <section class="page-cta">
+    <div class="container" style="text-align:center">
+      <h2>Ready to talk?</h2>
+      <p>Every engagement begins with a qualifying conversation.</p>
+      <a href="/contact" class="cta-btn">Request a conversation</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
+
+<style>
+  .page-hero {
+    background: var(--navy);
+    color: var(--pearl);
+    padding: 100px 0 80px;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(34px, 5vw, 56px);
+    font-weight: 300;
+    max-width: 800px;
+    margin: 0 auto 24px;
+  }
+
+  .page-hero h1 em {
+    font-style: italic;
+    color: #E8D9B5;
+    font-weight: 300;
+  }
+
+  .page-hero .eyebrow {
+    margin-bottom: 20px;
+    color: var(--gold);
+  }
+
+  .hero-lead {
+    font-size: 17px;
+    color: rgba(250, 246, 239, 0.75);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ── SERVICES ── */
+  .services {
+    padding: 110px 0;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+
+  .service-card {
+    display: block;
+    background: var(--pearl-card);
+    padding: 48px 36px 40px;
+    border-top: 2px solid var(--gold);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 40px rgba(14, 26, 58, 0.08);
+  }
+
+  .tier-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    color: var(--gold);
+    letter-spacing: 0.3em;
+    margin-bottom: 18px;
+    display: block;
+  }
+
+  .service-card .eyebrow {
+    color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+
+  .service-card h2 {
+    font-size: 26px;
+    color: var(--navy);
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+
+  .service-card p {
+    font-size: 15px;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+
+  .card-cta {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--purple);
+    font-weight: 500;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 4px;
+  }
+
+  /* ── HOW WE WORK ── */
+  .how-we-work {
+    padding: 110px 0;
+    background: var(--purple);
+    color: var(--pearl);
+  }
+
+  .section-head {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 70px;
+  }
+
+  .section-head h2 {
+    font-size: clamp(30px, 4vw, 44px);
+    color: var(--pearl);
+  }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .step-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    color: #E8D9B5;
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 300;
+  }
+
+  .step h3 {
+    font-size: 24px;
+    color: var(--pearl);
+    margin-bottom: 14px;
+  }
+
+  .step p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: rgba(250, 246, 239, 0.8);
+  }
+
+  /* ── CTA ── */
+  .page-cta {
+    padding: 100px 0;
+    background: var(--navy);
+    color: var(--pearl);
+  }
+
+  .page-cta h2 {
+    font-size: clamp(30px, 4vw, 42px);
+    color: var(--pearl);
+    margin-bottom: 16px;
+  }
+
+  .page-cta p {
+    font-size: 17px;
+    color: rgba(250, 246, 239, 0.75);
+    margin-bottom: 36px;
+  }
+
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--gold);
+    color: var(--pearl);
+    padding: 16px 32px;
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+
+  .cta-btn:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+
+  .cta-btn::after {
+    content: '→';
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 880px) {
+    .service-grid,
+    .steps-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .page-hero {
+      padding: 70px 0 50px;
+    }
+
+    .page-hero h1 {
+      font-size: 30px;
+    }
+
+    .services,
+    .how-we-work {
+      padding: 70px 0;
+    }
+
+    .service-card {
+      padding: 36px 26px 30px;
+    }
+  }
+</style>

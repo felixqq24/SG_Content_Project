@@ -18,5 +18,5 @@ Diese Dokumente sind die **Quellen der Wahrheit** für alle nachfolgenden Texte 
 - **Interview-basiert** — jede Kernaussage stammt aus dem Discovery-Gespräch oder einer belegten Quelle.
 - **Keine Erfindungen** — Qualifikationen, Zahlen, Referenzen nur mit Beleg.
 - **Personenzentrierte Sprache** — „Kind mit Autismus" statt „autistisches Kind", stärken-orientiert.
-- **Markenname = `[Markenname]`** Platzhalter, bis [../brand/name.md](../brand/name.md) steht.
+- **Markenname = `Riviera & Ridge`** Platzhalter, bis [../brand/name.md](../brand/name.md) steht.
 - **Zweisprachig denken** — Kernaussagen in DE, mit Kurz-Notizen für EN-Entsprechung wo nötig.

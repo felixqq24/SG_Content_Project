@@ -1,4 +1,4 @@
-# Tonality Guide — `[Markenname]`
+# Tonality Guide — `Riviera & Ridge`
 
 > **Status:** v1, 2026-04-23. Abgeleitet aus [content/messaging_framework.md](../content/messaging_framework.md) und [content/positioning.md](../content/positioning.md). Verbindlich für alle Texte (Website, Social, Outreach, Offline).
 
@@ -119,7 +119,7 @@ Beispiele aus dem Glossar:
 
 | ❌ Falsch | ✅ Richtig |
 |---|---|
-| „Melden Sie sich — wir freuen uns!" | „Jede Buchung beginnt mit einem Qualifizierungsgespräch. So stellen wir sicher, dass die Passung stimmt — für Ihre Familie und für `[Markenname]`." |
+| „Melden Sie sich — wir freuen uns!" | „Jede Buchung beginnt mit einem Qualifizierungsgespräch. So stellen wir sicher, dass die Passung stimmt — für Ihre Familie und für `Riviera & Ridge`." |
 
 ---
 
@@ -149,5 +149,5 @@ Beispiele aus dem Glossar:
 - [ ] Keine Superlative ohne Substanz.
 - [ ] Sie-Form durchgehend (DE/FR).
 - [ ] EN klingt nach SG, nicht nach Agentur.
-- [ ] `[Markenname]` als Platzhalter nur noch dort, wo der finale Name fehlt.
+- [ ] `Riviera & Ridge` als Platzhalter nur noch dort, wo der finale Name fehlt.
 - [ ] Kontakt/CTA ruhig, nicht drängend.

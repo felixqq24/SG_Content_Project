@@ -13,7 +13,7 @@ Alle Artefakte rund um die Marke des neuen Nanny-Angebots.
 
 ## Arbeitsprinzipien
 
-- **Platzhalter `[Markenname]`** in allen anderen Content-Dateien, bis die Entscheidung gefallen ist. Keine Namen erfinden oder frühzeitig einsetzen.
+- **Platzhalter `Riviera & Ridge`** in allen anderen Content-Dateien, bis die Entscheidung gefallen ist. Keine Namen erfinden oder frühzeitig einsetzen.
 - **Namens-Kriterien** (vor Entscheidung festlegen):
   - DE/EN gleichermaßen tragbar (internationale Nanny)
   - Aussprache in beiden Sprachen unkompliziert

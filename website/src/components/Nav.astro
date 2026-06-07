@@ -1,0 +1,99 @@
+---
+
+---
+
+<nav>
+  <div class="container">
+    <a href="/" class="logo" aria-label="Riviera & Ridge — Home">
+      Riviera <span class="amp">&amp;</span> Ridge
+    </a>
+    <div class="nav-links">
+      <a href="/services">Services</a>
+      <a href="/about">About</a>
+      <a href="/agencies">For Agencies</a>
+      <a href="/contact">Contact</a>
+    </div>
+    <a href="/contact" class="nav-cta">Request a conversation</a>
+  </div>
+</nav>
+
+<style>
+  nav {
+    background: var(--navy);
+    color: var(--pearl);
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    letter-spacing: 0.12em;
+    font-weight: 400;
+    color: var(--pearl);
+  }
+
+  .amp {
+    color: var(--gold);
+    font-style: italic;
+    margin: 0 2px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 38px;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .nav-links a {
+    color: var(--pearl);
+    opacity: 0.85;
+    transition: opacity 0.2s;
+  }
+
+  .nav-links a:hover {
+    opacity: 1;
+  }
+
+  .nav-cta {
+    border: 1px solid var(--gold);
+    padding: 9px 20px;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    transition: all 0.25s;
+  }
+
+  .nav-cta:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+
+  @media (max-width: 880px) {
+    .nav-links {
+      display: none;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .nav-cta {
+      display: none;
+    }
+
+    nav .container {
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+  }
+</style>

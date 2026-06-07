@@ -17,6 +17,7 @@ dist/
 build/
 out/
 .output/
+.astro/
 standalone/
 
 # IDE
@@ -51,3 +52,7 @@ interview/*.vtt
 interview/*.srt
 interview/*.eml
 interview/*.msg
+
+# ─── Fotos / Originale (zu groß für Git, ~450 MB) ─────────────────────
+Bilder Saskia/
+Bilder Saskia/preview/

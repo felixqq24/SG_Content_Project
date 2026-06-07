@@ -1,4 +1,4 @@
-# Proof Points — `[Markenname]`
+# Proof Points — `Riviera & Ridge`
 
 > **Status:** v1 nach Discovery-Interview (2026-04-20).
 >

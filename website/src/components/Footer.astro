@@ -1,0 +1,157 @@
+---
+
+---
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo">Riviera <span class="amp">&amp;</span> Ridge</a>
+        <p>
+          Premium care for internationally mobile families. Based in Zermatt,
+          Switzerland · Available worldwide.
+        </p>
+        <div class="footer-tagline">Presence over performance.</div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services/travel-alpine">Travel &amp; Alpine</a></li>
+          <li><a href="/services/behavioral-harmony">Harmony Coaching</a></li>
+          <li><a href="/services/elite-relief">Relief &amp; Emergency</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>About</h4>
+        <ul>
+          <li><a href="/about">Approach</a></li>
+          <li><a href="/about#qualifications">Qualifications</a></li>
+          <li><a href="/agencies">For Agencies</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@rivieraandridge.com">hello@rivieraandridge.com</a></li>
+          <li><a href="/contact">Qualifying call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; {new Date().getFullYear()} Riviera &amp; Ridge · Zermatt, Switzerland</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/imprint">Imprint</a></span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background: var(--navy);
+    color: rgba(250, 246, 239, 0.7);
+    padding: 70px 0 40px;
+    font-size: 13px;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+
+  h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 18px;
+    font-weight: 500;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  li a {
+    color: rgba(250, 246, 239, 0.7);
+    transition: color 0.2s;
+  }
+
+  li a:hover {
+    color: var(--pearl);
+  }
+
+  .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    letter-spacing: 0.12em;
+    font-weight: 400;
+    color: var(--pearl);
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+
+  .amp {
+    color: var(--gold);
+    font-style: italic;
+    margin: 0 2px;
+  }
+
+  .footer-brand p {
+    max-width: 320px;
+    line-height: 1.7;
+    color: rgba(250, 246, 239, 0.6);
+  }
+
+  .footer-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: rgba(250, 246, 239, 0.5);
+    margin-top: 12px;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(184, 137, 58, 0.25);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(250, 246, 239, 0.45);
+  }
+
+  .footer-bottom a {
+    color: rgba(250, 246, 239, 0.45);
+    transition: color 0.2s;
+  }
+
+  .footer-bottom a:hover {
+    color: var(--pearl);
+  }
+
+  @media (max-width: 880px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+    }
+  }
+</style>

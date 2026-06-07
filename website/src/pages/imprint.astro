@@ -1,0 +1,138 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Base
+  title="Imprint · Riviera & Ridge"
+  description="Legal information and contact details for Riviera & Ridge. Based in Zermatt, Switzerland."
+>
+  <Nav slot="header" />
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Imprint</h1>
+    </div>
+  </section>
+
+  <section class="legal">
+    <div class="container narrow">
+
+      <p class="draft-note">
+        Placeholders marked with [...] will be completed once business
+        registration is finalised.
+      </p>
+
+      <h2>Responsible for content</h2>
+      <address>
+        <strong>Riviera &amp; Ridge</strong><br />
+        [First name Last name]<br />
+        [Street, Postal code City]<br />
+        Switzerland
+      </address>
+
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:hello@rivieraandridge.com">hello@rivieraandridge.com</a><br />
+        Phone: [+41 xx xxx xx xx]
+      </p>
+
+      <h2>UID</h2>
+      <p>[CHE-xxx.xxx.xxx — if applicable]</p>
+
+      <h2>Disclaimer</h2>
+      <p>
+        The content of this website has been compiled with care. However, no
+        guarantee can be given for the accuracy, completeness, or timeliness
+        of the information provided. Links to external websites are provided
+        for convenience only. Riviera &amp; Ridge has no influence over the
+        content of linked sites and assumes no liability.
+      </p>
+
+      <h2>Copyright</h2>
+      <p>
+        All content and media on this website — including text, images, and
+        design — are subject to copyright. Use beyond the scope of copyright
+        law requires written permission.
+      </p>
+
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
+
+<style>
+  .page-hero {
+    background: var(--navy);
+    color: var(--pearl);
+    padding: 100px 0 70px;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(34px, 5vw, 48px);
+    font-weight: 300;
+  }
+
+  .legal {
+    padding: 80px 0 100px;
+  }
+
+  .narrow {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .draft-note {
+    background: #FFF8E7;
+    border-left: 3px solid var(--gold);
+    padding: 16px 20px;
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 50px;
+    font-style: italic;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: var(--navy);
+    margin: 44px 0 16px;
+    padding-top: 24px;
+    border-top: 1px solid var(--hairline);
+  }
+
+  h2:first-of-type {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  p, address {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--text-muted);
+    font-style: normal;
+    margin-bottom: 16px;
+  }
+
+  a {
+    color: var(--purple);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  a:hover {
+    color: var(--navy);
+  }
+
+  @media (max-width: 540px) {
+    .page-hero {
+      padding: 70px 0 50px;
+    }
+
+    .legal {
+      padding: 50px 0 70px;
+    }
+  }
+</style>

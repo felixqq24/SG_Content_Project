@@ -1,4 +1,4 @@
-# Target Personas — `[Markenname]`
+# Target Personas — `Riviera & Ridge`
 
 > **Status:** v1 nach Discovery-Interview (2026-04-20). Quellen: Interview-Zusammenfassung ([../interview/transkript_2026-04-20.md](../interview/transkript_2026-04-20.md)) + SGs Feldbeobachtungen in Zermatt.
 

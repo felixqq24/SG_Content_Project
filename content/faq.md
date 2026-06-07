@@ -1,4 +1,4 @@
-# FAQ — `[Markenname]`
+# FAQ — `Riviera & Ridge`
 
 > **Status:** v0.1 — Antworten aus Interview, Positioning, Proof Points und Fachlichem Fundament abgeleitet. Offene Punkte mit `[SG klären]` markiert.
 

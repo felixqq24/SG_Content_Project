@@ -2,7 +2,7 @@
 
 > **Status:** v2 Entwurf, 17. Mai 2026. Triple-Tier-Update (aus SGs WhatsApp-Modell 2026-05-17). EN primär (siehe [brand/tonality.md](../brand/tonality.md) §6). DE folgt nach SG-Freigabe EN via DeepL + Review.
 >
-> **Regel:** Platzhalter `[Markenname]` bleibt wörtlich. Keine erfundenen Zahlen, Referenzen oder Qualifikationen — nur belegte Inhalte aus [content/positioning.md](positioning.md), [content/proof_points.md](proof_points.md) und [content/messaging_framework.md](messaging_framework.md).
+> **Regel:** Platzhalter `Riviera & Ridge` bleibt wörtlich. Keine erfundenen Zahlen, Referenzen oder Qualifikationen — nur belegte Inhalte aus [content/positioning.md](positioning.md), [content/proof_points.md](proof_points.md) und [content/messaging_framework.md](messaging_framework.md).
 >
 > **Freigabepfad:** SG liest → Anmerkungen → V2 → DE/FR-Übersetzung → Website.
 
@@ -11,7 +11,7 @@
 ## Sitemap (Basis)
 
 1. Home
-2. About · `Who is behind [Markenname]`
+2. About · `Who is behind Riviera & Ridge`
 3. Services (Übersicht)
    - 3.1 Active Travel & Alpine Expert
    - 3.2 Behavioral & Harmony Coaching
@@ -28,28 +28,28 @@
 
 ## Hero
 
-**Eyebrow:** `[Markenname] · a premium nanny, based in Zermatt, available worldwide.`
+**Eyebrow:** `Riviera & Ridge · a premium nanny, based in Zermatt, available worldwide.`
 
 **Headline (H1):**
 > Presence over performance.
 
 **Sub-headline (≤ 25 Wörter):**
-> A state-certified educator, ski and yoga instructor, and mother of four — for families who want their children seen, not managed.
+> A state-certified educator, ski and yoga instructor — a mother of four who understands family life beyond theory. For families who value calm, attention, and genuine presence.
 
 **Primary CTA:** `Request a conversation`
 **Secondary CTA:** `How we work`
 
 *Alternative Headlines zum Test:*
 
-- *„A person, not a placeholder."*
-- *„Calm, even when the day is not."*
-- *„Care that holds the frame."*
+- *„Calm, even when the day is not.“*
+- *„Care that holds the frame.“*
+- *„Children notice atmosphere before adults do.“*
 
 ---
 
 ## Intro-Sektion (Pitch, ~60 Wörter)
 
-> `[Markenname]` is a premium nanny service for internationally mobile families. One qualified professional — a *staatlich geprüfte Erzieherin* (state-certified early-childhood educator), certified ski instructor, and yoga teacher — based in Zermatt, available for weekly and monthly engagements worldwide.
+> `Riviera & Ridge` is a premium nanny service for internationally mobile families. One qualified professional — a *staatlich geprüfte Erzieherin* (state-certified early-childhood educator), certified ski instructor, and yoga teacher — based in Zermatt, available for weekly and monthly engagements worldwide.
 >
 > For children who need more than childcare: calm, attention, and a different way of being heard.
 
@@ -58,10 +58,10 @@
 ## Triple-Tier Service Grid (je 1 H3 + 2 Sätze)
 
 ### I · Active Travel & Alpine Expert
-Weekly and monthly engagements, in Zermatt or wherever your family travels. One qualified educator with ski and outdoor competence — on the mountain and across time zones.
+From snowy mornings in Zermatt to long-haul travel days — your children experience one familiar person beside them. A qualified educator with ski and outdoor competence, across mountains and time zones.
 
 ### II · Behavioral & Harmony Coaching
-For children who need a calmer voice, a clearer frame, or a different rhythm. Qualified behavioural guidance rooted in 20 years of professional practice — not therapy, but depth.
+For children who respond to a calmer voice, a clearer frame, or a different rhythm. Grounded in 20 years of professional childcare and educational practice — with the depth that makes a difference.
 
 ### III · Elite Relief & Emergency Support
 Qualified, discreet cover when your live-in nanny is unavailable — or when the situation calls for someone who can step in and hold the frame at short notice.
@@ -105,7 +105,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 
 ---
 
-# 2 — About · Who is behind `[Markenname]`
+# 2 — About · Who is behind `Riviera & Ridge`
 
 ## Opening
 
@@ -113,9 +113,9 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 > One qualified person. A rare combination.
 
 **Lead:**
-> Behind `[Markenname]` is SG — a *staatlich geprüfte Erzieherin* (state-certified early-childhood educator), certified ski instructor, yoga teacher, and mother of four. Based in Zermatt. Available internationally.
+> Behind `Riviera & Ridge` is SG — a *staatlich geprüfte Erzieherin* (state-certified early-childhood educator), certified ski instructor, yoga teacher, and mother of four who understands family life beyond theory. Based in Zermatt. Available internationally.
 
-*(Name und Foto erst nach Namensentscheidung und Shooting. Bis dahin Platzhalter-Silhouette.)*
+*(Porträtfotos liegen vor — 16 professionelle Shots + 2 Selfies. Bildauswahl: Hero → `_DSC4036`, About → `_DSC4020`, Contact → Selfie Blazer, B2B → `_DSC4070-2`.)*
 
 ## Qualifications (Bulleted, factual)
 
@@ -133,13 +133,13 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 
 > The way a child is spoken to in the first minute of the morning sets the tone for the day. That is where the work begins.
 
-> Children are different. Some need movement before they can sit still. Some need quiet before they can speak. Some need a clear frame more than they need a programme. That is not a diagnosis — that is attention.
+> Children notice atmosphere before adults do. Some need movement before they can sit still. Others find their words only after a stretch of quiet. Knowing which — and responding with steadiness — is what years of practice look like.
 
-> This is not therapy, and it does not replace specialists. It is childcare done by a qualified educator who is used to being present without being loud.
+> The work stays rooted in professional childcare and educational practice. Where specialist support is needed, Riviera & Ridge works respectfully alongside existing professionals.
 
 ## A note on children with particular needs
 
-> Some children need more calm, a different pace, or a clearer frame — for reasons that may or may not carry a name. `[Markenname]` offers depth of attention, not labels. Specialist therapies and medical guidance remain with the professionals who hold them.
+> Some children need more calm, a different pace, or a clearer frame — for reasons that may or may not carry a name. `Riviera & Ridge` offers depth of attention and a grounded presence. Specialist therapies and medical guidance remain with the professionals who hold them.
 
 ---
 
@@ -175,7 +175,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 - One qualified educator as the constant reference for the children — not a rotating team.
 - Clear written brief: routines, languages, school, allergies, boundaries.
 - Discreet coordination with existing household staff (housekeepers, drivers, tutors) where present.
-- Ski accompaniment in Zermatt in partnership with **Evolution Ski School Zermatt** — qualified instruction through the ski school, patient care before, between, and after lessons through `[Markenname]`.
+- Ski accompaniment in Zermatt in partnership with **Evolution Ski School Zermatt** — qualified instruction through the ski school, patient care before, between, and after lessons through `Riviera & Ridge`.
 - Travel itinerary coordination: acclimatisation support, activity programming, outdoor competence across terrain and time zones.
 
 ### Typical fit
@@ -187,7 +187,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 
 ### Partner note
 
-> Ski instruction in Zermatt is delivered exclusively by **Evolution Ski School Zermatt** (Fabrizio Pavan). `[Markenname]` provides the care component: preparation, transitions, quiet time, and companionship on and off the snow.
+> Ski instruction in Zermatt is delivered exclusively by **Evolution Ski School Zermatt** (Fabrizio Pavan). `Riviera & Ridge` provides the care component: preparation, transitions, quiet time, and companionship on and off the snow.
 
 ### Indicative frame
 
@@ -220,12 +220,12 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 ### Typical fit
 
 - Children who respond to calm authority rather than entertainment.
-- Families seeking a qualified educator's perspective on challenging dynamics — not therapy, but pedagogical depth.
+- Families seeking a qualified educator's perspective on challenging dynamics — pedagogical depth grounded in decades of practice.
 - Households where existing care works day-to-day, but particular situations call for a different skillset.
 
 ### A note on scope
 
-> This is not therapy, and it does not replace specialists. It is childcare and guidance delivered by a *staatlich geprüfte Erzieherin* who is trained to observe, adapt, and hold the frame — for children who benefit from a quieter presence.
+> The work stays rooted in professional childcare and educational practice, delivered by a *staatlich geprüfte Erzieherin* trained to observe, adapt, and hold the frame. Where specialist support is needed, Riviera & Ridge works respectfully alongside existing professionals.
 
 ### Indicative frame
 
@@ -258,7 +258,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 ### Typical fit
 
 - Families with an existing live-in nanny who needs leave or medical cover.
-- Situations requiring a qualified educator at short notice — not an au pair, not an agency temp.
+- Situations requiring a qualified educator at short notice — a professional presence that carries the household through a transition.
 - Household managers or family offices coordinating on behalf of the family.
 - Nanny agencies looking for a qualified educator to step in (see [For Agencies](#)).
 
@@ -280,7 +280,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 
 ## Lead
 
-> `[Markenname]` is available for placements via selected nanny and governess agencies. All contractual, logistical, and communication frames sit with your agency. We focus on the child.
+> `Riviera & Ridge` is available for placements via selected nanny and governess agencies. All contractual, logistical, and communication frames sit with your agency. We focus on the child.
 
 ---
 
@@ -309,7 +309,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 
 ### Track 1 — New Agency: Introductory Call
 
-**For:** Agencies exploring a collaboration with `[Markenname]` for the first time.
+**For:** Agencies exploring a collaboration with `Riviera & Ridge` for the first time.
 
 **Icon:** Handshake
 
@@ -393,7 +393,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 - Service tier most relevant: `Active Travel & Alpine` · `Behavioral & Harmony Coaching` · `Elite Relief & Emergency` · `Not sure` *(Dropdown)*
 - Brief note (optional, free text, max 300 chars) — *(keine medizinischen/diagnostischen Angaben; Details im Placement Briefing)*
 - Urgency: `Standard (2+ weeks lead time)` · `Urgent (< 2 weeks)` *(Radio)*
-- Consent*: `I confirm that I have a legal basis to share this family's contact data and consent to its processing by [Markenname] for the purpose of this placement. [Privacy Policy]`
+- Consent*: `I confirm that I have a legal basis to share this family's contact data and consent to its processing by Riviera & Ridge for the purpose of this placement. [Privacy Policy]`
 
 **CTA:** `Submit placement request`
 
@@ -420,8 +420,8 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 ### Reciprocal visibility
 
 - Logo placement on both sides, subject to written agreement.
-- Agencies may reference `[Markenname]` in their talent portfolio.
-- `[Markenname]` may list partner agencies on the website (after mutual agreement).
+- Agencies may reference `Riviera & Ridge` in their talent portfolio.
+- `Riviera & Ridge` may list partner agencies on the website (after mutual agreement).
 
 ### Response commitments
 
@@ -609,7 +609,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 ## Trust & Closing
 
 **Closing text:**
-> `[Markenname]` is a one-person practice. When you write, call, or book — you reach the person who will be with your children. No call centre, no intake team, no handoff.
+> `Riviera & Ridge` is built around one qualified professional — and, when capacity requires it, a small circle of carefully chosen associates who work in the same spirit. When you write, call, or book, the conversation begins with the person who will be with your children.
 
 **Response commitment (dezent, unter dem Closing):**
 > ✉ Enquiries and callback requests: reply within two working days.
@@ -650,7 +650,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 
 ## Footer claim
 
-> `[Markenname]` — a premium nanny, based in Zermatt, available worldwide.
+> `Riviera & Ridge` — a premium nanny, based in Zermatt, available worldwide.
 
 ## Cookie / consent banner (Kurzfassung)
 
@@ -666,7 +666,7 @@ Quiet, professional, present. Your children know someone is holding the frame. Y
 
 ## 7.1 — Controller / Verantwortlicher
 
-`[Markenname]`
+`Riviera & Ridge`
 `[Vorname Nachname]`
 `[Strasse, PLZ Ort]`
 `[Land]`
@@ -706,7 +706,7 @@ Kalender-Daten werden durch `[Cal.com / Calendly]` verarbeitet (→ §7.6).
 | Familienprofil (Ort, Kinderzahl/-alter) | Einschätzung Fit & Verfügbarkeit | Art. 6(1)(b) |
 | Dringlichkeit, Service-Tier | Priorisierung | Art. 6(1)(b) |
 
-> **B2B-Datenfluss:** Agenturen bestätigen bei der Übermittlung, dass sie eine eigene Rechtsgrundlage für die Weitergabe der Kontaktdaten haben. `[Markenname]` verarbeitet diese Daten ausschließlich zum Zweck der Placement-Prüfung. Sensitivdaten (Gesundheit, Verhalten) werden nicht über das Formular erhoben.
+> **B2B-Datenfluss:** Agenturen bestätigen bei der Übermittlung, dass sie eine eigene Rechtsgrundlage für die Weitergabe der Kontaktdaten haben. `Riviera & Ridge` verarbeitet diese Daten ausschließlich zum Zweck der Placement-Prüfung. Sensitivdaten (Gesundheit, Verhalten) werden nicht über das Formular erhoben.
 
 ### 7.2.4 — Website Usage (Analytics & Cookies)
 
@@ -718,7 +718,7 @@ Kalender-Daten werden durch `[Cal.com / Calendly]` verarbeitet (→ §7.6).
 
 ## 7.3 — No Sensitive Data on This Website
 
-> `[Markenname]` does **not** collect health data, diagnoses, behavioural observations, or other special category data (Art. 9 DSGVO) through this website. All information of this nature is discussed exclusively in the qualifying conversation (phone or video call) and is not stored digitally on the website or its connected services.
+> `Riviera & Ridge` does **not** collect health data, diagnoses, behavioural observations, or other special category data (Art. 9 DSGVO) through this website. All information of this nature is discussed exclusively in the qualifying conversation (phone or video call) and is not stored digitally on the website or its connected services.
 
 ## 7.4 — Retention / Speicherfristen
 
@@ -761,7 +761,7 @@ You have the right to:
 
 ## 7.7 — Children's Data
 
-> `[Markenname]` does not collect data directly from children. All data about children is provided by parents, legal guardians, or authorised agencies. We process children's data exclusively for the purpose of assessing and delivering childcare engagements.
+> `Riviera & Ridge` does not collect data directly from children. All data about children is provided by parents, legal guardians, or authorised agencies. We process children's data exclusively for the purpose of assessing and delivering childcare engagements.
 
 ## 7.8 — WhatsApp Business
 
@@ -779,7 +779,7 @@ You have the right to:
 
 > **Status:** Platzhalter. Pflichtangaben nach Schweizer UWG Art. 3. Ausfüllen nach Markenname-/Firmengründungs-Entscheidung.
 
-**`[Markenname]`**
+**`Riviera & Ridge`**
 `[Vorname Nachname]`
 `[Strasse, PLZ Ort]`
 Schweiz
@@ -801,7 +801,7 @@ Inhaltlich verantwortlich: `[Vorname Nachname]`
 
 ## Hero (DE)
 
-**Eyebrow:** `[Markenname] · Premium-Nanny mit Basis in Zermatt, einsatzfähig weltweit.`
+**Eyebrow:** `Riviera & Ridge · Premium-Nanny mit Basis in Zermatt, einsatzfähig weltweit.`
 
 **Headline:**
 > Präsenz statt Programm.
@@ -814,7 +814,7 @@ Inhaltlich verantwortlich: `[Vorname Nachname]`
 
 ## Intro (DE, ~60 Wörter)
 
-> `[Markenname]` ist eine Premium-Nanny für international mobile Familien. Eine qualifizierte Bezugsperson — staatlich geprüfte Erzieherin, zertifizierte Skilehrerin, Yogalehrerin — mit Basis in Zermatt, einsatzfähig für Wochen- und Monatsengagements weltweit.
+> `Riviera & Ridge` ist eine Premium-Nanny für international mobile Familien. Eine qualifizierte Bezugsperson — staatlich geprüfte Erzieherin, zertifizierte Skilehrerin, Yogalehrerin — mit Basis in Zermatt, einsatzfähig für Wochen- und Monatsengagements weltweit.
 >
 > Für Kinder, die mehr brauchen als Betreuung: Ruhe, Aufmerksamkeit und eine andere Art, gehört zu werden.
 
@@ -833,30 +833,31 @@ Qualifizierte, diskrete Vertretung, wenn Ihre Live-in-Nanny ausfällt — oder w
 
 # SEO-Meta (Titles ≤ 60 Zeichen, Descriptions ≤ 160 Zeichen)
 
-> `[Markenname]` wird ersetzt, sobald Name feststeht. Zeichenzählung basiert auf Platzhalter-Länge — nach Namens-Einsetzung nachzählen.
+> `Riviera & Ridge` wird ersetzt, sobald Name feststeht. Zeichenzählung basiert auf Platzhalter-Länge — nach Namens-Einsetzung nachzählen.
 
 | Seite | Title Tag | Meta Description |
 |---|---|---|
-| **Home** | `[Markenname] · Premium Nanny, Zermatt` | `State-certified educator, ski & yoga instructor, mother of four. Weekly and monthly engagements for internationally mobile families. Based in Zermatt.` |
-| **About** | `About · [Markenname]` | `One qualified person — a rare combination. State-certified educator with 20+ years experience, ski and yoga qualifications. Certificates on request.` |
-| **Services** | `Services · [Markenname]` | `A bespoke triple-tier service: Active Travel & Alpine, Behavioral & Harmony Coaching, Elite Relief & Emergency. Every engagement starts with a conversation.` |
-| **3.1 Active Travel & Alpine** | `Active Travel & Alpine · [Markenname]` | `One constant wherever you travel. Weekly and monthly engagements in Zermatt or abroad. Ski accompaniment via Evolution Ski School Zermatt.` |
-| **3.2 Behavioral & Harmony** | `Behavioral & Harmony Coaching · [Markenname]` | `Qualified behavioural guidance for children who need a calmer voice or a different rhythm. 20 years of professional practice. Not therapy — depth.` |
-| **3.3 Elite Relief** | `Elite Relief & Emergency · [Markenname]` | `Qualified, discreet cover when your live-in nanny is unavailable. Structured hand-over, seamless continuity, written close-out. Available at short notice.` |
-| **For Agencies** | `For Agencies · [Markenname]` | `Book a qualified educator through your agency. Introductory call or direct placement briefing. One point of contact, clean hand-overs, full transparency.` |
-| **Contact** | `Contact · [Markenname]` | `Book a qualifying call, request a callback, or send an enquiry. Every engagement begins with a 20-minute confidential conversation. Reply within 2 days.` |
-| **Privacy** | `Privacy Policy · [Markenname]` | `How [Markenname] processes your personal data. GDPR and Swiss DSG compliant. Data categories, retention, your rights, and third-party processors.` |
-| **Imprint** | `Imprint · [Markenname]` | `Legal information and contact details for [Markenname]. Based in Zermatt, Switzerland.` |
+| **Home** | `Riviera & Ridge · Premium Nanny, Zermatt` | `State-certified educator, ski & yoga instructor, mother of four. Weekly and monthly engagements for internationally mobile families. Based in Zermatt.` |
+| **About** | `About · Riviera & Ridge` | `One qualified person — a rare combination. State-certified educator with 20+ years experience, ski and yoga qualifications. Certificates on request.` |
+| **Services** | `Services · Riviera & Ridge` | `A bespoke triple-tier service: Active Travel & Alpine, Behavioral & Harmony Coaching, Elite Relief & Emergency. Every engagement starts with a conversation.` |
+| **3.1 Active Travel & Alpine** | `Active Travel & Alpine · Riviera & Ridge` | `One constant wherever you travel. Weekly and monthly engagements in Zermatt or abroad. Ski accompaniment via Evolution Ski School Zermatt.` |
+| **3.2 Behavioral & Harmony** | `Behavioral & Harmony Coaching · Riviera & Ridge` | `Qualified behavioural guidance for children who need a calmer voice or a different rhythm. 20 years of professional practice. Not therapy — depth.` |
+| **3.3 Elite Relief** | `Elite Relief & Emergency · Riviera & Ridge` | `Qualified, discreet cover when your live-in nanny is unavailable. Structured hand-over, seamless continuity, written close-out. Available at short notice.` |
+| **For Agencies** | `For Agencies · Riviera & Ridge` | `Book a qualified educator through your agency. Introductory call or direct placement briefing. One point of contact, clean hand-overs, full transparency.` |
+| **Contact** | `Contact · Riviera & Ridge` | `Book a qualifying call, request a callback, or send an enquiry. Every engagement begins with a 20-minute confidential conversation. Reply within 2 days.` |
+| **Privacy** | `Privacy Policy · Riviera & Ridge` | `How Riviera & Ridge processes your personal data. GDPR and Swiss DSG compliant. Data categories, retention, your rights, and third-party processors.` |
+| **Imprint** | `Imprint · Riviera & Ridge` | `Legal information and contact details for Riviera & Ridge. Based in Zermatt, Switzerland.` |
 
 ---
 
 # Offene Punkte (vor V3)
 
 - [x] **Triple-Tier-Umstellung (v2):** Sitemap, Home-Grid, Service-Seiten und DE-Abschnitt auf SGs Triple-Tier-Modell aktualisiert (17. Mai 2026).
-- [ ] **Markenname** ersetzen, sobald entschieden (globale Suche `[Markenname]`).
+- [x] **Markenname** ersetzt: Riviera & Ridge (2026-05-31, 60 Vorkommen in 15 Dateien).
 - [x] **Zahlen freigeben:** „Mother of four" von SG bestätigt (Call 2026-04-24).
+- [x] **Fotos:** 16 professionelle Porträts + 2 Selfies erhalten (2026-05-31). Kein separates Shooting mehr nötig.
 - [ ] **Fabrizio Pavan:** Text-Freigabe für Namensnennung und Partner-Section (jetzt in 3.1).
-- [ ] **Indicative-Rate-Floor** festlegen („from CHF X"), erst dann in Hero/Services einsetzen. Bis dahin weggelassen.
+- [x] **Indicative-Rate-Floor** festlegen — ab CHF 65/h, ab CHF 8.500/Monat. Alpine-Pakete: CHF 4.800 / 7.500–12.000 / 15.000 pro Woche. (Freigegeben 2026-05-31.)
 - [ ] **Referenzen/Cases:** Platzhalter für einen anonymisierten Case (Lotta) auf Service-Seiten, sobald Textfassung mit Felix abgestimmt.
 - [x] **SEO-Meta:** Titles und Descriptions für alle 10 Seiten (17. Mai 2026).
 - [x] **positioning.md Hero-Track & Säulen** an Triple-Tier angeglichen (17. Mai 2026).

@@ -1,0 +1,12 @@
+# Netlify Build Settings
+[build]
+  base = "website"
+  command = "npm run build"
+  publish = "dist"
+
+# Redirects: .ch → .com (primary)
+[[redirects]]
+  from = "https://rivieraandridge.ch/*"
+  to = "https://rivieraandridge.com/:splat"
+  status = 301
+  force = true

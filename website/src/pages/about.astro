@@ -1,0 +1,467 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+import aboutImg from '../assets/images/about.jpg';
+---
+
+<Base
+  title="About · Riviera & Ridge"
+  description="One qualified person — a rare combination. State-certified educator with 20+ years experience, ski and yoga qualifications. Certificates on request."
+>
+  <Nav slot="header" />
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">The person behind Riviera &amp; Ridge</div>
+      <h1>One qualified person. <em>A rare combination.</em></h1>
+    </div>
+  </section>
+
+  <!-- ═══════════ INTRO ═══════════ -->
+  <section class="intro">
+    <div class="container intro-grid">
+      <div class="intro-photo">
+        <Image
+          src={aboutImg}
+          alt="About — Riviera & Ridge"
+          width={520}
+          quality={80}
+          format="webp"
+        />
+      </div>
+      <div class="intro-text">
+        <p class="lead">
+          Behind Riviera &amp; Ridge is a <em>staatlich geprüfte Erzieherin</em>
+          (state-certified early-childhood educator), certified ski instructor,
+          yoga teacher, and mother of four who understands family life beyond
+          theory. Based in Zermatt. Available internationally.
+        </p>
+        <p>
+          Professional training matters. So does raising four children of your
+          own. The calm that comes from both shows in the way children settle
+          — within minutes, often before the parents have left the room.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ APPROACH ═══════════ -->
+  <section class="approach">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Working philosophy</div>
+        <h2>How children are met matters.</h2>
+      </div>
+      <div class="approach-columns">
+        <div class="approach-block">
+          <h3>Presence before programme</h3>
+          <p>
+            The way a child is spoken to in the first minute of the morning
+            sets the tone for the day. That is where the work begins.
+          </p>
+        </div>
+        <div class="approach-block">
+          <h3>Atmosphere before agenda</h3>
+          <p>
+            Children notice atmosphere before adults do. Some need movement
+            before they can sit still. Others find their words only after a
+            stretch of quiet. Knowing which — and responding with steadiness
+            — is what years of practice look like.
+          </p>
+        </div>
+        <div class="approach-block">
+          <h3>Collaboration over territory</h3>
+          <p>
+            The work stays rooted in professional childcare and educational
+            practice. Where specialist support is needed, Riviera &amp; Ridge
+            works respectfully alongside existing professionals.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ BRAND QUOTE ═══════════ -->
+  <section class="quote-section">
+    <div class="container">
+      <blockquote>
+        When children feel emotionally safe, everything else becomes easier.
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ═══════════ QUALIFICATIONS ═══════════ -->
+  <section class="qualifications" id="qualifications">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Professional background</div>
+        <h2>Qualifications &amp; credentials</h2>
+      </div>
+      <div class="qual-grid">
+        <div class="qual-item">
+          <h4>Staatlich geprüfte Erzieherin</h4>
+          <p>State-certified early-childhood educator (Germany)</p>
+        </div>
+        <div class="qual-item">
+          <h4>Fachabitur</h4>
+          <p>Vocational higher-education entrance qualification</p>
+        </div>
+        <div class="qual-item">
+          <h4>Social Work studies</h4>
+          <p>Focus on early childhood</p>
+        </div>
+        <div class="qual-item">
+          <h4>Certified ski instructor</h4>
+          <p>Alpine skiing, all levels</p>
+        </div>
+        <div class="qual-item">
+          <h4>Certified yoga teacher</h4>
+          <p>3HO — adults, children's yoga &amp; yoga coach (~400 h)</p>
+        </div>
+        <div class="qual-item">
+          <h4>First-aid trained</h4>
+          <p>Certified for working with children</p>
+        </div>
+        <div class="qual-item">
+          <h4>Forest kindergarten</h4>
+          <p>Practical experience in nature-based pedagogy</p>
+        </div>
+        <div class="qual-item">
+          <h4>Mother of four</h4>
+          <p>Family life beyond theory</p>
+        </div>
+      </div>
+      <p class="qual-note">
+        Each qualification is documented. Certificates available on request
+        during the qualifying conversation.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ PARTICULAR NEEDS ═══════════ -->
+  <section class="needs-note">
+    <div class="container narrow">
+      <h2>A note on children with particular needs</h2>
+      <p>
+        Some children need more calm, a different pace, or a clearer frame
+        — for reasons that may or may not carry a name. Riviera &amp; Ridge
+        offers depth of attention and a grounded presence. Specialist
+        therapies and medical guidance remain with the professionals who
+        hold them.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ CTA ═══════════ -->
+  <section class="page-cta">
+    <div class="container" style="text-align:center">
+      <h2>Ready to talk?</h2>
+      <p>Every engagement begins with a qualifying conversation.</p>
+      <a href="/#contact" class="cta-btn">Request a conversation</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
+
+<style>
+  /* ── PAGE HERO ── */
+  .page-hero {
+    background: var(--navy);
+    color: var(--pearl);
+    padding: 100px 0 70px;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(34px, 5vw, 56px);
+    font-weight: 300;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .page-hero h1 em {
+    font-style: italic;
+    color: #E8D9B5;
+    font-weight: 300;
+  }
+
+  .page-hero .eyebrow {
+    margin-bottom: 20px;
+    color: var(--gold);
+  }
+
+  /* ── INTRO ── */
+  .intro {
+    padding: 110px 0;
+  }
+
+  .intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 80px;
+    align-items: start;
+  }
+
+  .intro-photo {
+    position: relative;
+  }
+
+  .intro-photo img {
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .intro-photo::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--gold);
+    z-index: -1;
+  }
+
+  .lead {
+    font-size: 19px;
+    line-height: 1.7;
+    color: var(--navy);
+    margin-bottom: 24px;
+  }
+
+  .lead em {
+    font-style: italic;
+  }
+
+  .intro-text p {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--text-muted);
+    max-width: 560px;
+  }
+
+  /* ── APPROACH ── */
+  .approach {
+    padding: 110px 0;
+    background: var(--purple);
+    color: var(--pearl);
+  }
+
+  .section-head {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 70px;
+  }
+
+  .section-head h2 {
+    font-size: clamp(30px, 4vw, 44px);
+    color: var(--pearl);
+    margin-bottom: 16px;
+  }
+
+  .approach-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .approach-block h3 {
+    font-size: 22px;
+    color: var(--pearl);
+    margin-bottom: 16px;
+  }
+
+  .approach-block p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: rgba(250, 246, 239, 0.82);
+  }
+
+  /* ── QUOTE ── */
+  .quote-section {
+    padding: 110px 0;
+    text-align: center;
+  }
+
+  .quote-section blockquote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(26px, 3.5vw, 38px);
+    line-height: 1.4;
+    color: var(--navy);
+    font-weight: 300;
+    font-style: italic;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  .quote-section blockquote::before {
+    content: '\201C';
+    display: block;
+    font-size: 80px;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  /* ── QUALIFICATIONS ── */
+  .qualifications {
+    padding: 110px 0 80px;
+    background: var(--pearl-card);
+  }
+
+  .qualifications .section-head h2 {
+    color: var(--navy);
+  }
+
+  .qual-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+  }
+
+  .qual-item {
+    padding: 32px 24px;
+    border-top: 2px solid var(--gold);
+  }
+
+  .qual-item h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+
+  .qual-item p {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .qual-note {
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 50px;
+  }
+
+  /* ── PARTICULAR NEEDS ── */
+  .needs-note {
+    padding: 90px 0;
+  }
+
+  .narrow {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .needs-note h2 {
+    font-size: clamp(26px, 3vw, 34px);
+    color: var(--navy);
+    margin-bottom: 24px;
+  }
+
+  .needs-note p {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--text-muted);
+  }
+
+  /* ── CTA ── */
+  .page-cta {
+    padding: 100px 0;
+    background: var(--navy);
+    color: var(--pearl);
+  }
+
+  .page-cta h2 {
+    font-size: clamp(30px, 4vw, 42px);
+    color: var(--pearl);
+    margin-bottom: 16px;
+  }
+
+  .page-cta p {
+    font-size: 17px;
+    color: rgba(250, 246, 239, 0.75);
+    margin-bottom: 36px;
+  }
+
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--gold);
+    color: var(--pearl);
+    padding: 16px 32px;
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+
+  .cta-btn:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+
+  .cta-btn::after {
+    content: '→';
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 880px) {
+    .intro-grid {
+      grid-template-columns: 1fr;
+      gap: 50px;
+    }
+
+    .approach-columns {
+      grid-template-columns: 1fr;
+      gap: 50px;
+    }
+
+    .qual-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 540px) {
+    .page-hero {
+      padding: 70px 0 50px;
+    }
+
+    .page-hero h1 {
+      font-size: 30px;
+    }
+
+    .intro,
+    .approach,
+    .qualifications {
+      padding: 70px 0;
+    }
+
+    .qual-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .quote-section {
+      padding: 70px 0;
+    }
+
+    .quote-section blockquote {
+      font-size: 22px;
+    }
+  }
+</style>

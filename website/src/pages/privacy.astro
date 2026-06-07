@@ -1,0 +1,353 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Base
+  title="Privacy Policy · Riviera & Ridge"
+  description="How Riviera & Ridge processes your personal data. GDPR and Swiss DSG compliant. Data categories, retention, your rights, and third-party processors."
+>
+  <Nav slot="header" />
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Privacy Policy</h1>
+    </div>
+  </section>
+
+  <section class="legal">
+    <div class="container narrow">
+
+      <p class="draft-note">
+        Draft — placeholders marked with [...] will be completed before launch.
+        To be reviewed by a Swiss-law attorney (nDSG + EU-GDPR).
+      </p>
+
+      <!-- 1 Controller -->
+      <h2>1 · Controller</h2>
+      <p>
+        Riviera &amp; Ridge<br />
+        [First name Last name]<br />
+        [Street, Postal code City]<br />
+        Switzerland
+      </p>
+      <p>Email: <a href="mailto:hello@rivieraandridge.com">hello@rivieraandridge.com</a></p>
+
+      <!-- 2 Data we collect -->
+      <h2>2 · Data we collect</h2>
+
+      <h3>2.1 — Contact &amp; enquiry forms</h3>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Name, email</td><td>Reply to enquiry</td><td>Art. 6(1)(b) GDPR — pre-contractual</td></tr>
+          <tr><td>Phone (optional)</td><td>Callback</td><td>Art. 6(1)(b)</td></tr>
+          <tr><td>Country / base</td><td>Logistics assessment</td><td>Art. 6(1)(b)</td></tr>
+          <tr><td>Number &amp; age of children</td><td>Care needs assessment</td><td>Art. 6(1)(b)</td></tr>
+          <tr><td>"How did you find us?" (optional)</td><td>Marketing attribution</td><td>Art. 6(1)(f) — legitimate interest</td></tr>
+          <tr><td>Preferred time / timezone</td><td>Callback scheduling</td><td>Art. 6(1)(b)</td></tr>
+        </tbody>
+      </table>
+      <p>
+        We do <strong>not</strong> collect health data, diagnoses, or behavioural
+        observations through this website. Details of that nature are discussed
+        exclusively in the qualifying conversation (phone or video).
+      </p>
+
+      <h3>2.2 — Calendar booking</h3>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Name, email</td><td>Appointment confirmation</td><td>Art. 6(1)(b)</td></tr>
+          <tr><td>Children's age, brief note</td><td>Call preparation</td><td>Art. 6(1)(b)</td></tr>
+        </tbody>
+      </table>
+      <p>Calendar data is processed by [Cal.com / Calendly] (→ Section 6).</p>
+
+      <h3>2.3 — Agency placement forms (B2B)</h3>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Agency name, contact, email</td><td>Placement coordination</td><td>Art. 6(1)(b)</td></tr>
+          <tr><td>Family profile (location, children)</td><td>Fit &amp; availability</td><td>Art. 6(1)(b)</td></tr>
+          <tr><td>Urgency, service tier</td><td>Prioritisation</td><td>Art. 6(1)(b)</td></tr>
+        </tbody>
+      </table>
+      <p>
+        Agencies confirm upon submission that they hold their own legal basis
+        for sharing contact data. Sensitive data (health, behaviour) is not
+        collected via the form.
+      </p>
+
+      <h3>2.4 — Website usage</h3>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Essential cookies (session, CSRF)</td><td>Website function</td><td>Art. 6(1)(f) — legitimate interest</td></tr>
+          <tr><td>Analytics cookies (optional)</td><td>Usage understanding</td><td>Art. 6(1)(a) — consent via banner</td></tr>
+          <tr><td>Calendar embed cookies</td><td>Functional</td><td>Art. 6(1)(a) — consent via 2-click</td></tr>
+        </tbody>
+      </table>
+
+      <!-- 3 No sensitive data -->
+      <h2>3 · No sensitive data on this website</h2>
+      <p>
+        Riviera &amp; Ridge does <strong>not</strong> collect health data,
+        diagnoses, behavioural observations, or other special-category data
+        (Art.&nbsp;9 GDPR) through this website. All information of this nature
+        is discussed exclusively in the qualifying conversation (phone or video
+        call) and is not stored digitally on the website or its connected
+        services.
+      </p>
+
+      <!-- 4 Retention -->
+      <h2>4 · Retention</h2>
+      <table>
+        <thead>
+          <tr><th>Category</th><th>Duration</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>B2C enquiries (no engagement)</td><td>6 months after last contact</td></tr>
+          <tr><td>B2B enquiries (no placement)</td><td>12 months after last contact</td></tr>
+          <tr><td>Engagement data (briefings, close-outs)</td><td>3 years (Swiss statutory obligation)</td></tr>
+          <tr><td>Calendar bookings</td><td>Per provider policy, max. 12 months</td></tr>
+          <tr><td>Analytics data</td><td>[Provider-dependent]</td></tr>
+        </tbody>
+      </table>
+
+      <!-- 5 Your rights -->
+      <h2>5 · Your rights</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li><strong>Access</strong> (Art.&nbsp;15) — request a copy of the data we hold about you.</li>
+        <li><strong>Rectification</strong> (Art.&nbsp;16) — correct inaccurate or incomplete data.</li>
+        <li><strong>Erasure</strong> (Art.&nbsp;17) — request deletion of your data.</li>
+        <li><strong>Restriction</strong> (Art.&nbsp;18) — limit processing of your data.</li>
+        <li><strong>Data portability</strong> (Art.&nbsp;20) — receive your data in a machine-readable format.</li>
+        <li><strong>Objection</strong> (Art.&nbsp;21) — object to processing based on legitimate interest.</li>
+        <li><strong>Withdraw consent</strong> — at any time, without affecting prior processing.</li>
+      </ul>
+      <p>
+        To exercise your rights, write to
+        <a href="mailto:hello@rivieraandridge.com">hello@rivieraandridge.com</a>.
+        We respond within 30 days.
+      </p>
+      <p>
+        <strong>Supervisory authority:</strong> Switzerland — FDPIC
+        (<a href="https://www.edoeb.admin.ch" rel="noopener noreferrer">www.edoeb.admin.ch</a>).
+        EU — your local data protection authority.
+      </p>
+
+      <!-- 6 Processors -->
+      <h2>6 · Third-party processors</h2>
+      <table>
+        <thead>
+          <tr><th>Provider</th><th>Purpose</th><th>Location</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Netlify, Inc.</td><td>Hosting, forms, deploy</td><td>USA (CDN global)</td></tr>
+          <tr><td>[Cal.com / Calendly]</td><td>Calendar booking</td><td>[USA / EU]</td></tr>
+          <tr><td>Meta (WhatsApp Business)</td><td>Messaging</td><td>USA</td></tr>
+          <tr><td>[Plausible / Fathom / GA4]</td><td>Analytics</td><td>[EU / USA]</td></tr>
+        </tbody>
+      </table>
+      <p>
+        For US-based processors, data transfers are secured via EU Standard
+        Contractual Clauses (SCCs) or the EU-US Data Privacy Framework, as applicable.
+      </p>
+
+      <!-- 7 Children's data -->
+      <h2>7 · Children's data</h2>
+      <p>
+        Riviera &amp; Ridge does not collect data directly from children. All
+        data about children is provided by parents, legal guardians, or
+        authorised agencies, and is processed exclusively for the purpose of
+        assessing and delivering childcare engagements.
+      </p>
+
+      <!-- 8 WhatsApp -->
+      <h2>8 · WhatsApp Business</h2>
+      <p>
+        WhatsApp Business is offered as a convenience channel for scheduling
+        and logistics. Messages are processed by Meta Platforms, Inc. (USA)
+        under Meta's own terms. Detailed discussions about children take place
+        in the qualifying call.
+      </p>
+
+      <!-- 9 Changes -->
+      <h2>9 · Changes to this policy</h2>
+      <p>
+        We may update this privacy policy to reflect changes in our services or
+        legal requirements. The current version is always available at
+        <a href="/privacy">rivieraandridge.com/privacy</a>. Material changes
+        will be communicated via the website.
+      </p>
+      <p class="last-updated">Last updated: [Go-live date]</p>
+
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
+
+<style>
+  .page-hero {
+    background: var(--navy);
+    color: var(--pearl);
+    padding: 100px 0 70px;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(34px, 5vw, 48px);
+    font-weight: 300;
+  }
+
+  .legal {
+    padding: 80px 0 100px;
+  }
+
+  .narrow {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  .draft-note {
+    background: #FFF8E7;
+    border-left: 3px solid var(--gold);
+    padding: 16px 20px;
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 50px;
+    font-style: italic;
+  }
+
+  h2 {
+    font-size: 26px;
+    color: var(--navy);
+    margin: 50px 0 20px;
+    padding-top: 30px;
+    border-top: 1px solid var(--hairline);
+  }
+
+  h2:first-of-type {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--navy);
+    margin: 30px 0 14px;
+    letter-spacing: 0.02em;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 16px 0 24px;
+  }
+
+  li {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--text-muted);
+    padding: 6px 0 6px 22px;
+    position: relative;
+  }
+
+  li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 8px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 24px;
+    font-size: 14px;
+  }
+
+  thead {
+    background: var(--navy);
+    color: var(--pearl);
+  }
+
+  th {
+    text-align: left;
+    padding: 10px 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  td {
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(14, 26, 58, 0.08);
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  a {
+    color: var(--purple);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  a:hover {
+    color: var(--navy);
+  }
+
+  .last-updated {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 540px) {
+    .page-hero {
+      padding: 70px 0 50px;
+    }
+
+    .legal {
+      padding: 50px 0 70px;
+    }
+
+    table {
+      font-size: 13px;
+    }
+
+    th, td {
+      padding: 8px 10px;
+    }
+  }
+</style>

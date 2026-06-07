@@ -1,0 +1,247 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Base
+  title="Elite Relief & Emergency · Riviera & Ridge"
+  description="Qualified, discreet cover when your live-in nanny is unavailable. Structured hand-over, seamless continuity, written close-out. Available at short notice."
+>
+  <Nav slot="header" />
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="tier-label">Tier III</span>
+      <div class="eyebrow">When your live-in nanny is unavailable</div>
+      <h1>Cover that carries the household — <em>without rewriting it.</em></h1>
+      <p class="hero-lead">
+        Qualified, discreet relief for established households during illness,
+        leave, or short-term gaps. Available at short notice.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ DETAIL ═══════════ -->
+  <section class="detail">
+    <div class="container detail-grid">
+      <div class="detail-main">
+        <h2>What this looks like</h2>
+        <ul class="feature-list">
+          <li>Engagements from a weekend to several weeks.</li>
+          <li>A structured hand-over from your existing nanny or household manager — routines, allergies, preferences — read, confirmed, followed.</li>
+          <li>The goal is seamless continuity, not reinvention.</li>
+          <li>Written close-out at the end of the engagement, ready for your returning staff.</li>
+          <li>Sole charge or shared care, depending on the family's structure.</li>
+        </ul>
+
+        <h2>Typical fit</h2>
+        <ul class="feature-list">
+          <li>Families with an existing live-in nanny who needs leave or medical cover.</li>
+          <li>Situations requiring a qualified educator at short notice — a professional presence that carries the household through a transition.</li>
+          <li>Household managers or family offices coordinating on behalf of the family.</li>
+          <li>Nanny agencies looking for a qualified educator to step in (see <a href="/agencies">For Agencies</a>).</li>
+        </ul>
+      </div>
+
+      <aside class="detail-sidebar">
+        <div class="sidebar-card">
+          <h4>Indicative frame</h4>
+          <ul>
+            <li>Rates confirmed after the qualifying conversation</li>
+            <li>Availability confirmed in writing before booking</li>
+            <li>Languages: EN · DE · FR</li>
+          </ul>
+          <a href="/contact" class="sidebar-cta">Request a conversation</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ═══════════ CTA ═══════════ -->
+  <section class="page-cta">
+    <div class="container" style="text-align:center">
+      <h2>Continuity is underrated. Especially while travelling.</h2>
+      <p>Every engagement begins with a qualifying conversation.</p>
+      <a href="/contact" class="cta-btn">Request a conversation</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>
+
+<style>
+  .page-hero {
+    background: var(--navy);
+    color: var(--pearl);
+    padding: 100px 0 80px;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(32px, 4.5vw, 48px);
+    font-weight: 300;
+    max-width: 820px;
+    margin: 0 auto 24px;
+  }
+
+  .page-hero h1 em { font-style: italic; color: #E8D9B5; font-weight: 300; }
+  .page-hero .eyebrow { margin-bottom: 20px; color: var(--gold); }
+
+  .tier-label {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(184, 137, 58, 0.4);
+    padding: 6px 18px;
+    margin-bottom: 20px;
+  }
+
+  .hero-lead {
+    font-size: 17px;
+    color: rgba(250, 246, 239, 0.75);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  .detail { padding: 100px 0; }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+
+  .detail-main h2 {
+    font-size: 28px;
+    color: var(--navy);
+    margin: 50px 0 24px;
+  }
+
+  .detail-main h2:first-child { margin-top: 0; }
+
+  .feature-list { list-style: none; }
+
+  .feature-list li {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--text-muted);
+    padding: 10px 0 10px 24px;
+    position: relative;
+    border-bottom: 1px solid rgba(14, 26, 58, 0.06);
+  }
+
+  .feature-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 10px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  .feature-list a {
+    color: var(--purple);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .feature-list a:hover { color: var(--navy); }
+
+  .sidebar-card {
+    background: var(--pearl-card);
+    border-top: 2px solid var(--gold);
+    padding: 36px 28px;
+    position: sticky;
+    top: 100px;
+  }
+
+  .sidebar-card h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+
+  .sidebar-card ul { list-style: none; }
+
+  .sidebar-card li {
+    font-size: 14px;
+    color: var(--text-muted);
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(14, 26, 58, 0.06);
+    line-height: 1.6;
+  }
+
+  .sidebar-cta {
+    display: block;
+    text-align: center;
+    background: var(--navy);
+    color: var(--pearl);
+    padding: 14px 24px;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 28px;
+    transition: background 0.3s;
+  }
+
+  .sidebar-cta:hover { background: var(--purple); }
+
+  .page-cta {
+    padding: 100px 0;
+    background: var(--navy);
+    color: var(--pearl);
+  }
+
+  .page-cta h2 {
+    font-size: clamp(28px, 3.5vw, 40px);
+    color: var(--pearl);
+    margin-bottom: 16px;
+  }
+
+  .page-cta p {
+    font-size: 17px;
+    color: rgba(250, 246, 239, 0.75);
+    margin-bottom: 36px;
+  }
+
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--gold);
+    color: var(--pearl);
+    padding: 16px 32px;
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+
+  .cta-btn:hover { background: var(--gold); color: var(--navy); }
+  .cta-btn::after { content: '→'; font-size: 16px; letter-spacing: 0; }
+
+  @media (max-width: 880px) {
+    .detail-grid { grid-template-columns: 1fr; gap: 50px; }
+    .sidebar-card { position: static; }
+  }
+
+  @media (max-width: 540px) {
+    .page-hero { padding: 70px 0 50px; }
+    .page-hero h1 { font-size: 28px; }
+    .detail { padding: 60px 0; }
+  }
+</style>

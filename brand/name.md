@@ -92,5 +92,5 @@ Nach SGs Reaktion auf die 40er-Liste ([name_briefing_response_2026-04-24.md](nam
 
 ## Platzhalter-Regel bis zur Entscheidung
 
-- In allen Content-Dateien weiter **`[Markenname]`** als wörtlicher Platzhalter (genau so geschrieben, in eckigen Klammern).
+- In allen Content-Dateien weiter **`Riviera & Ridge`** als wörtlicher Platzhalter (genau so geschrieben, in eckigen Klammern).
 - Nach Entscheidung: globale Suchen/Ersetzen-Aktion in `content/`, `brand/`, `interview/transkript_*.md`, `docs/decisions.md`.

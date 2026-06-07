@@ -1,36 +1,43 @@
-# Website
+# Astro Starter Kit: Minimal
 
-Alles rund um die spätere Webpräsenz von `[Markenname]`.
+```sh
+npm create astro@latest -- --template minimal
+```
 
-## Status
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-**Noch nicht aktiv.** Der Ordner wird ab Phase 5 befüllt, sobald die Content-Grundlagen (Positioning, Personas, Messaging, Proof-Points) stehen.
+## 🚀 Project Structure
 
-## Erwartete Artefakte (ab Phase 5)
+Inside of your Astro project, you'll see the following folders and files:
 
-| Datei | Zweck |
-|---|---|
-| `sitemap.md` | IA / Seitenstruktur |
-| `wireframes.md` | Textuelle Wireframes pro Seite (Hero, Sections, CTAs) |
-| `copy/` | Seitentexte pro Sprache und Route (`copy/de/home.md`, `copy/en/home.md`, …) |
-| `tech_decision.md` | Bewertung Astro / Next.js / Framer / CMS-Optionen, finale Wahl |
-| `implementation/` | Der tatsächliche Projekt-Code (sobald Tech-Stack steht) |
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-## Voraussetzungen für Start
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-- [ ] `content/positioning.md` befüllt und freigegeben
-- [ ] `content/target_personas.md` befüllt
-- [ ] `content/messaging_framework.md` befüllt
-- [ ] `content/proof_points.md` mit verwertbaren Belegen
-- [ ] `brand/name.md` mit finalem Markennamen und Domain
-- [ ] Entscheidung DE-only oder DE+EN-Launch (siehe `docs/decisions.md`)
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-## Tech-Stack-Entscheidungs-Hinweise
+Any static assets, like images, can be placed in the `public/` directory.
 
-Bei der Tech-Wahl in Phase 5 berücksichtigen:
-- **Mehrsprachigkeit DE/EN** — native Unterstützung wichtig
-- **Self-Service-Pflege durch SG** — CMS-Bedarf prüfen (vs. Code-Edit)
-- **Bildlastig** (Nanny → visuelle Vertrauensbildung) — Asset-Optimierung out-of-the-box
-- **SEO-First** (Familien suchen über Google) — SSG / SSR
-- **Low-Ops** — kein komplexer Server nötig
-- Archivierte technische Guidelines in [../docs/_template/](../docs/_template/) reaktivieren sobald Stack steht
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

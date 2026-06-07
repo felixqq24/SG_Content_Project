@@ -124,7 +124,7 @@
 
 ## 14 — Content-Standards (SG-Projekt-spezifisch)
 
-- **Markenname:** Noch nicht festgelegt. Bis zur Entscheidung Platzhalter `[Markenname]` in Content-Dateien. Keine Namen erfinden.
+- **Markenname:** **Riviera & Ridge** (entschieden 2026-05-31). Platzhalter `[Markenname]` wurde in allen Content-Dateien ersetzt.
 - **Tonalität:** Wird im Messaging-Framework nach dem Interview definiert. Bis dahin: warm, fachlich fundiert, keine Buzzwords.
 - **Faktentreue:** Qualifikationen, Erfahrungen und Referenzen nur dokumentieren wenn durch Quelle (SG direkt, Zeugnis, Referenz) belegt. Nichts erfinden.
 - **Zielgruppen-Respekt:** Inhalte zu Kindern mit besonderen Bedürfnissen (Down-Syndrom, Autismus, körperliche Behinderung, Hochbegabung) in respektvoller, personenzentrierter Sprache ("Kind mit Autismus" statt "autistisches Kind"). Keine defizitäre Sprache.

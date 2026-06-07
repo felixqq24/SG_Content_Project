@@ -1,13 +1,13 @@
 # Outreach-Mail-Entwurf (SG-Draft)
 
 > **Quelle:** SG-WhatsApp 2026-05-17. Rohentwurf — noch nicht redaktionell überarbeitet.
-> **Hinweis:** Markenname „Riviera & Ridge" ist SGs Arbeitstitel, nicht final entschieden. Vor Verwendung durch `[Markenname]`-Entscheidung ersetzen.
+> **Hinweis:** Markenname „Riviera & Ridge" ist SGs Arbeitstitel, nicht final entschieden. Vor Verwendung durch `Riviera & Ridge`-Entscheidung ersetzen.
 
 ---
 
 ## Cold-Outreach an Agenturen / Familien (EN)
 
-**Subject:** Specialized Triple-Tier Nanny Services | `[Markenname]`
+**Subject:** Specialized Triple-Tier Nanny Services | `Riviera & Ridge`
 
 Dear [Name],
 
@@ -21,7 +21,7 @@ My service is built on three specialized pillars, ensuring a seamless and enrich
 
 Whether you require a travel companion for a season in the Alps, a yoga-integrated wellbeing coach for your children, or a professional to stabilize complex family situations, I provide a tailored solution that anticipates your needs.
 
-I am currently available for international assignments and would welcome the opportunity to discuss how `[Markenname]` can provide the tranquility and excellence your family deserves.
+I am currently available for international assignments and would welcome the opportunity to discuss how `Riviera & Ridge` can provide the tranquility and excellence your family deserves.
 
 Warm regards,
 SG

@@ -18,8 +18,8 @@ applyTo: "**"
 - Current phase: Post-Discovery / Positionierung (Interview 2026-04-20 abgeschlossen; kuratierte Artefakte in `content/` + `interview/transkript_2026-04-20.md`)
 - Discovery-Interview durchgeführt: 2026-04-20, ~63 min (Teams)
 - Git-Remote: existiert bereits (privat, `origin` → `felixqq24/SG_Content_Project`)
-- Brand name: TBD — LLM-Brainstorm in `brand/name.md`; bis dahin Platzhalter `[Markenname]`
-- Domain: tbd (Präferenz `.com` oder `.ch`)
+- Brand name: **Riviera & Ridge** (entschieden 2026-05-31, SG-Eigenidee). Platzhalter `[Markenname]` in Content-Dateien wird sukzessive ersetzt
+- Domain: **rivieraandridge.com** + **rivieraandridge.ch** registriert (Infomaniak, 2026-06-07). Hosting via Netlify (DNS CNAME auf Netlify zeigen)
 
 ## Business Context
 
@@ -42,8 +42,8 @@ applyTo: "**"
 - Kontaktkanäle: Kontaktformular + Domain-Mail + WhatsApp Business + separate Telefonnummer
 - Offline-Assets: Visitenkarten + halber A5-Flyer (einmal gefaltet) für Concierges; Canva-Entwurf via Chris
 - Farbpalette: **„SG Core 4" freigegeben 2026-04-26** — Navy `#0E1A3A` · Royal Purple `#4A2C6D` · Antique Gold `#B8893A` · Warm Pearl `#FAF6EF`. Gold nur als Hairline/Icon, niemals Flächen
-- Markenname-Shortlist (Stand 2026-04-26): **Sungold** (SG-Eigenidee, Single-Word — Suffixe „Service/Private Care" verworfen) · **Respira** (von SG aus 40er-Liste bestätigt: *„holt mich ab"*) — beide brauchen TM- und Domain-Check
-- Markenname-Shortlist erweitert (Stand 2026-05-17): **Riviera & Ridge** (SG-Eigenidee via WhatsApp, Zwei-Wort, am stärksten ausgearbeitet — vollständiger Outreach-Draft existiert) · Terra Aura · Aura & Ridge · Reliant Travel Nanny — Domain- und TM-Checks stehen aus
+- Markenname-Shortlist (historisch, verworfen): Sungold · Respira · Auranne · Terra Aura etc. — alle verworfen zugunsten Riviera & Ridge
+- Markenname entschieden (2026-05-31): **Riviera & Ridge** (SG-Eigenidee via WhatsApp, Zwei-Wort). Vorherige Shortlist (Sungold, Respira, Auranne, Terra Aura etc.) verworfen
 - Service-Modell „Triple-Tier" (SG-WhatsApp 2026-05-17): I. Active Travel & Alpine Expert · II. Behavioral & Harmony Coaching · III. Elite Relief & Emergency Support — korrespondiert mit Hero-Track + 2 Säulen aus Positioning, aber expliziter EN-Framing
 - Wettbewerber-/Branchenreferenzen (SG-Recherche 2026-05-17): Superstar Nannies · EED (VIP Nanny & Governess) · The Elite Nanny Company — zur Orientierung, nicht als Vorbilder
 - Englisches Fachvokabular (20 Begriffe) in `docs/glossary.md` aufgenommen: Service-Level (Bespoke, Seamless, Unobtrusive …), Pädagogik (Behavioral Guidance, Emotional Regulation …), Reise/Ski/Yoga, Professionalität (Sole Charge, Proxy Parenting …)
@@ -57,7 +57,12 @@ applyTo: "**"
 - Polyvagaltheorie: Selbststudium aus 20 J. Yogapraxis — Website-Formulierung *„arbeitet auf Basis der Polyvagaltheorie"*, NIE „polyvagal-zertifiziert"
 - Montessori: in Erzieher-Ausbildung enthalten, keine gesonderte Fortbildung (AMI/DMG)
 - „Mother of four" — von SG für Website freigegeben (Call 2026-04-24)
+- Porträtfotos erhalten (2026-05-31): 16 professionelle Shots (PNG, je ~27–32 MB), 2 Settings (Sofa/Glasbausteinwand + neutrale Wand). Ablage: `Bilder Saskia/` (gitignored). Preview-JPEGs in `Bilder Saskia/preview/`. Kein separates Shooting mehr nötig.
 - SG Sommer 2026: flexible Schweiz-Basis via Pferdehof Katrin Keller (Juni–Sept, freie Kost/Unterkunft) — projekt-intern, NICHT auf Website
+- Kapazität: max. 3–4 Kinder gleichzeitig (Sole-Charge-Einsätze)
+- Preise freigegeben (2026-05-31): ab CHF 65/h · ab CHF 8.500/Monat (langfristig) · UHNW-Jahresvereinbarungen individuell. Alpine-Pakete: Essential CHF 4.800/Wo · VIP CHF 7.500–12.000/Wo · UHNW Companion ab CHF 15.000/Wo. Detail in `content/pricing.md`
+- Schlüsselmärkte Alpine/Resort (SG-bestätigt): Zermatt · Verbier · Courchevel · St. Moritz · Lech · Aspen · Dubai travel families
+- Rollenbezeichnungen EN (SG-Shortlist, noch offen): Private Family Companion · Holistic Child Development Specialist · Premium Family Support · Governess · Family Lifestyle Manager · Educational & Wellness Nanny · High Profile Family Assistant
 
 ## Content & Language Rules
 

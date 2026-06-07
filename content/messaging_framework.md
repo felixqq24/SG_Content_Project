@@ -1,14 +1,14 @@
-# Messaging Framework — `[Markenname]`
+# Messaging Framework — `Riviera & Ridge`
 
 > **Status:** v1 nach Discovery-Interview (2026-04-20). Primärsprache EN, DE+FR abgeleitet.
 
 ## Value Proposition (≤ 20 Wörter, EN)
 
-> `[Markenname]` — a premium nanny for internationally mobile families. Presence, professionalism, and a place for every child.
+> `Riviera & Ridge` — a premium nanny for internationally mobile families. Presence, professionalism, and a place for every child.
 
 ## Value Proposition (≤ 20 Wörter, DE)
 
-> `[Markenname]` — Premium-Nanny für international mobile Familien. Präsenz, Fachlichkeit und ein Platz für jedes Kind.
+> `Riviera & Ridge` — Premium-Nanny für international mobile Familien. Präsenz, Fachlichkeit und ein Platz für jedes Kind.
 
 ## Kernbotschaften (priorisiert)
 

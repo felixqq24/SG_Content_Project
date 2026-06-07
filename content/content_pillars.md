@@ -1,4 +1,4 @@
-# Content Pillars — `[Markenname]`
+# Content Pillars — `Riviera & Ridge`
 
 > **Status:** Draft v0.1. Grundstruktur aus SGs „Triple-Tier"-Modell (WhatsApp 2026-05-17), abgeglichen mit Hero-Track + Säulen aus `positioning.md`.
 

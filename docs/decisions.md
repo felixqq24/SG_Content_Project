@@ -93,7 +93,7 @@
 ## 2026-04-18 — Projektname bleibt, Markenname folgt
 
 - **Entscheidung:** Technischer Workspace-Name bleibt `SG_Content_Projekt`. Markenname für das Nanny-Angebot wird nach dem Discovery-Interview in `brand/` festgelegt.
-- **Begründung:** Markenname ist Ergebnis der Positionierungsarbeit, nicht Voraussetzung. Bis dahin Platzhalter `[Markenname]` in Content-Dateien.
+- **Begründung:** Markenname ist Ergebnis der Positionierungsarbeit, nicht Voraussetzung. Bis dahin Platzhalter `Riviera & Ridge` in Content-Dateien.
 
 ## 2026-04-18 — Template-Herkunft entfernt
 
