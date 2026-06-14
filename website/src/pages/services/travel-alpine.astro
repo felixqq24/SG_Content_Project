@@ -10,6 +10,37 @@ import Footer from '../../components/Footer.astro';
 >
   <Nav slot="header" />
 
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Active Travel & Alpine Expert",
+      "description": "Weekly and monthly engagements, in Zermatt or abroad. Ski accompaniment in partnership with Evolution Ski School Zermatt.",
+      "provider": {
+        "@type": "ProfessionalService",
+        "name": "Riviera & Ridge",
+        "url": "https://rivieraandridge.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Zermatt",
+          "addressRegion": "Valais",
+          "addressCountry": "CH"
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Zermatt"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        }
+      ],
+      "serviceType": "Travel Nanny / Alpine Expert"
+    }
+  </script>
+
   <!-- ═══════════ HERO ═══════════ -->
   <section class="page-hero">
     <div class="container">

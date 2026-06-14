@@ -10,12 +10,43 @@ import Footer from '../../components/Footer.astro';
 >
   <Nav slot="header" />
 
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Elite Relief & Emergency Support",
+      "description": "Qualified, discreet relief for established households during illness, leave, or short-term gaps. Available at short notice.",
+      "provider": {
+        "@type": "ProfessionalService",
+        "name": "Riviera & Ridge",
+        "url": "https://rivieraandridge.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Zermatt",
+          "addressRegion": "Valais",
+          "addressCountry": "CH"
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Zermatt"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        }
+      ],
+      "serviceType": "Emergency Childcare / Relief"
+    }
+  </script>
+
   <!-- ═══════════ HERO ═══════════ -->
   <section class="page-hero">
     <div class="container">
       <span class="tier-label">Tier III</span>
       <div class="eyebrow">When your live-in nanny is unavailable</div>
-      <h1>Cover that carries the household — <em>without rewriting it.</em></h1>
+      <h1 class="text-pearl">Cover that carries the household — <em class="italic">without rewriting it.</em></h1>
       <p class="hero-lead">
         Qualified, discreet relief for established households during illness,
         leave, or short-term gaps. Available at short notice.
@@ -27,16 +58,16 @@ import Footer from '../../components/Footer.astro';
   <section class="detail">
     <div class="container detail-grid">
       <div class="detail-main">
-        <h2>What this looks like</h2>
+        <h2 class="text-navy">What this looks like</h2>
         <ul class="feature-list">
           <li>Engagements from a weekend to several weeks.</li>
           <li>A structured hand-over from your existing nanny or household manager — routines, allergies, preferences — read, confirmed, followed.</li>
           <li>The goal is seamless continuity, not reinvention.</li>
-          <li>Written close-out at the end of the engagement, ready for your returning staff.</li>
+          <li class="text-navy">Written close-out at the end of the engagement, ready for your returning staff.</li>
           <li>Sole charge or shared care, depending on the family's structure.</li>
         </ul>
 
-        <h2>Typical fit</h2>
+        <h2 class="text-navy">Typical fit</h2>
         <ul class="feature-list">
           <li>Families with an existing live-in nanny who needs leave or medical cover.</li>
           <li>Situations requiring a qualified educator at short notice — a professional presence that carries the household through a transition.</li>
@@ -91,7 +122,7 @@ import Footer from '../../components/Footer.astro';
 
   .tier-label {
     display: inline-block;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 11px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -138,7 +169,7 @@ import Footer from '../../components/Footer.astro';
   }
 
   .feature-list li::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 20px;
@@ -164,7 +195,7 @@ import Footer from '../../components/Footer.astro';
   }
 
   .sidebar-card h4 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 11px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -232,7 +263,7 @@ import Footer from '../../components/Footer.astro';
   }
 
   .cta-btn:hover { background: var(--gold); color: var(--navy); }
-  .cta-btn::after { content: '→'; font-size: 16px; letter-spacing: 0; }
+  .cta-btn::after { content: "→"; font-size: 16px; letter-spacing: 0; }
 
   @media (max-width: 880px) {
     .detail-grid { grid-template-columns: 1fr; gap: 50px; }

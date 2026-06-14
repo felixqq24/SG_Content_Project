@@ -10,6 +10,41 @@ import Footer from '../../components/Footer.astro';
 >
   <Nav slot="header" />
 
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Behavioral & Harmony Coaching",
+      "description": "Qualified behavioural guidance for children who need a calmer voice or a different rhythm. 20 years of professional practice.",
+      "provider": {
+        "@type": "ProfessionalService",
+        "name": "Riviera & Ridge",
+        "url": "https://rivieraandridge.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Zermatt",
+          "addressRegion": "Valais",
+          "addressCountry": "CH"
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Zermatt"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        }
+      ],
+      "serviceType": "Behavioural Coaching"
+    }
+  </script>
+
+  <!-- ═══════════ HERO ═══════════ -->
+// ... existing code ...
+
+
   <!-- ═══════════ HERO ═══════════ -->
   <section class="page-hero">
     <div class="container">
