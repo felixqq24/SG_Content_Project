@@ -56,3 +56,6 @@ interview/*.msg
 # ─── Fotos / Originale (zu groß für Git, ~450 MB) ─────────────────────
 Bilder Saskia/
 Bilder Saskia/preview/
+
+# Local Netlify folder
+.netlify
