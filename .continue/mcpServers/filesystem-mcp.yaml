@@ -1,0 +1,12 @@
+name: Filesystem MCP
+version: 0.0.1
+schema: v1
+
+mcpServers:
+  - name: Filesystem
+    description: Safe filesystem operations within project scope
+    command: npx
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-filesystem"
+      - "."

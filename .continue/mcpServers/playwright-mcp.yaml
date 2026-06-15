@@ -1,0 +1,11 @@
+name: Playwright MCP
+version: 0.0.1
+schema: v1
+
+mcpServers:
+  - name: Playwright Browser
+    description: Browser automation for E2E testing verification and UI interaction
+    command: npx
+    args:
+      - "-y"
+      - "@playwright/mcp@latest"
