@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@astrojs/sitemap": "^1.1.1",
-    "astro": "^6.4.4"
+    "astro": "^5.0.0"
   },
   "engines": {
     "node": ">=22.12.0"
