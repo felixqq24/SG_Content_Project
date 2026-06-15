@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@astrojs/sitemap": "^1.1.1",
     "astro": "^5.0.0"
   },
   "engines": {
