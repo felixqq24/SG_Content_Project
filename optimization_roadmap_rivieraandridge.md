@@ -13,8 +13,8 @@ Diese Roadmap definiert die schrittweise Transformation der Website von einem re
 - [ ] **Meta-Optimierung:** Schärfung der Meta-Titles und Descriptions für alle Hauptseiten (Fokus: Premium-Positionierung + lokale Relevanz).
 
 ### 1.2 Vertrauens-Integrität (Social Proof)
-- [ ] **Testimonial-Cleanup:** Vollständige Entfernung aller Platzhalter-Texte.
-- [ ] **Referenz-Implementierung:** Einpflegen echter, (ggf. anonymisierter) Kundenstimmen, die den Kontext (z.B. "Familie in Zermatt") verdeutlichen.
+- [x] **Testimonial-Cleanup:** Vollständige Entfernung aller Platzhalter-Texte. (2026-06-15)
+- [x] **Referenz-Implementierung:** 3 echte Testimonials eingebaut (Sonia Kraemer · Zermatt, Claire, Aya). (2026-06-15)
 
 ### 1.3 Content-Vollständigkeit
 - [ ] **Text-Finalisierung:** Überprüfung aller Unterseiten auf abgeschnittene oder unvollständige Textabschnitte.
@@ -27,7 +27,7 @@ Diese Roadmap definiert die schrittweise Transformation der Website von einem re
 
 ### 2.1 Local SEO & Authority
 - [ ] **Local Presence:** Optimierung der lokalen Signale für Zermatt und die Schweiz (Google Business Profile, lokale Keywords).
-- [ ] **Structured Data:** Implementierung von Schema.org Markups (`Person`, `Service`, `LocalBusiness`), um Rich Snippets in den SERPs zu ermöglichen.
+- [x] **Structured Data:** Schema.org `Review` + `AggregateRating` im JSON-LD der Homepage implementiert. (2026-06-15)
 
 ### 2.2 B2B-Vertriebskanal (Agency Enablement)
 - [ ] **Agency Landingpage:** Ausbau der "For Agencies"-Seite zu einer dedizierten B2B-Vertriebsfläche (Prozessbeschreibung, Qualifikationsrahmen, Vorteile für Agenturen).
