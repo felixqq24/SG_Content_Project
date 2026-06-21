@@ -1,4 +1,4 @@
----
+wend---
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
@@ -8,6 +8,10 @@ import Footer from '../components/Footer.astro';
   title="Message sent · Riviera & Ridge"
   description="Thank you for your enquiry. We will be in touch within two working days."
 >
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+  </head>
+
   <Nav slot="header" />
 
   <section class="success-hero">
